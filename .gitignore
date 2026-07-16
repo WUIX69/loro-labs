@@ -36,7 +36,11 @@ pnpm-debug.log*
 next-env.d.ts
 
 # harness
+.agent
 .agents
 .claude
 .opencode
 .github
+
+# others
+/temp
