@@ -1,0 +1,403 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app_layout",
+      "community": 0,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "inter",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_app_layout_inter",
+      "community": 0,
+      "norm_label": "inter"
+    },
+    {
+      "label": "fontMono",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_app_layout_fontmono",
+      "community": 0,
+      "norm_label": "fontmono"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "src_app_layout_rootlayout",
+      "community": 0,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app_page",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Page()",
+      "file_type": "code",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "src_app_page_page",
+      "community": 1,
+      "norm_label": "page()"
+    },
+    {
+      "label": "theme-provider.tsx",
+      "file_type": "code",
+      "source_file": "src/components/theme-provider.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_components_theme_provider",
+      "community": 2,
+      "norm_label": "theme-provider.tsx"
+    },
+    {
+      "label": "ThemeProvider()",
+      "file_type": "code",
+      "source_file": "src/components/theme-provider.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_components_theme_provider_themeprovider",
+      "community": 2,
+      "norm_label": "themeprovider()"
+    },
+    {
+      "label": "isTypingTarget()",
+      "file_type": "code",
+      "source_file": "src/components/theme-provider.tsx",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "src_components_theme_provider_istypingtarget",
+      "community": 2,
+      "norm_label": "istypingtarget()"
+    },
+    {
+      "label": "ThemeHotkey()",
+      "file_type": "code",
+      "source_file": "src/components/theme-provider.tsx",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "src_components_theme_provider_themehotkey",
+      "community": 2,
+      "norm_label": "themehotkey()"
+    },
+    {
+      "label": "button.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_components_ui_button",
+      "community": 1,
+      "norm_label": "button.tsx"
+    },
+    {
+      "label": "buttonVariants",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_components_ui_button_buttonvariants",
+      "community": 1,
+      "norm_label": "buttonvariants"
+    },
+    {
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "src_components_ui_button_button",
+      "community": 1,
+      "norm_label": "button()"
+    },
+    {
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_lib_utils",
+      "community": 0,
+      "norm_label": "utils.ts"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "src_lib_utils_cn",
+      "community": 0,
+      "norm_label": "cn()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_layout",
+      "target": "src_app_layout_fontmono",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_layout",
+      "target": "src_app_layout_inter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_layout",
+      "target": "src_app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_layout",
+      "target": "src_components_theme_provider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_layout",
+      "target": "src_components_theme_provider_themeprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_layout",
+      "target": "src_lib_utils",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_layout",
+      "target": "src_lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_layout_rootlayout",
+      "target": "src_lib_utils_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_page",
+      "target": "src_app_page_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_page",
+      "target": "src_components_ui_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_app_page",
+      "target": "src_components_ui_button_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/theme-provider.tsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_theme_provider",
+      "target": "src_components_theme_provider_istypingtarget",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/theme-provider.tsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_theme_provider",
+      "target": "src_components_theme_provider_themehotkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/theme-provider.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_theme_provider",
+      "target": "src_components_theme_provider_themeprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_ui_button",
+      "target": "src_components_ui_button_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_ui_button",
+      "target": "src_components_ui_button_buttonvariants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_ui_button",
+      "target": "src_lib_utils",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_ui_button",
+      "target": "src_lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_ui_button_button",
+      "target": "src_components_ui_button_buttonvariants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ui/button.tsx",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_ui_button_button",
+      "target": "src_lib_utils_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_lib_utils",
+      "target": "src_lib_utils_cn",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "752fef9652e76761832974e63db424968a2d2520"
+}
