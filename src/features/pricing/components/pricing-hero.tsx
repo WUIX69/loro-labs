@@ -12,12 +12,7 @@ export function PricingHero() {
           <h1 className="text-5xl md:text-7xl lg:text-[120px] lg:leading-[110px] font-black text-foreground mb-6 tracking-tighter">
             Investment in{" "}
             <span
-              className="bg-gradient-to-r from-destructive via-[oklch(0.6758_0.1453_238.462)] to-primary bg-clip-text text-transparent"
-              style={{
-                backgroundImage: "linear-gradient(135deg, oklch(0.6356 0.2082 25.3782), oklch(0.6758 0.1453 238.462), oklch(0.6230 0.1688 149.178))",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-              }}
+              className="bg-gradient-to-r from-destructive via-[var(--chart-4)] to-primary bg-clip-text text-transparent"
             >
               Innovation
             </span>
