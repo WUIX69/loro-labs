@@ -1,0 +1,5 @@
+export * from "./services-hero"
+export * from "./services-web-app"
+export * from "./services-consulting"
+export * from "./services-ai"
+export * from "./services-cta"
