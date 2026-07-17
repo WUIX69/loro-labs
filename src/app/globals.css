@@ -199,3 +199,20 @@
     @apply font-sans;
     }
 }
+
+@keyframes rainbow-pulse {
+  0%, 100% { border-color: var(--primary); }
+  25%       { border-color: var(--chart-4); }
+  50%       { border-color: var(--chart-5); }
+  75%       { border-color: var(--accent); }
+}
+
+@keyframes infinite-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.testimonials-ticker:hover .testimonials-track {
+  animation-play-state: paused;
+}
+
