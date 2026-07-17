@@ -12,6 +12,13 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Dot directories — agent tooling, not project code
+    ".agents/**",
+    ".opencode/**",
+    ".claude/**",
+    ".github/**",
+    ".gemini/**",
+    ".agent/**",
   ]),
 ]);
 
