@@ -22,7 +22,7 @@ export function ParallaxBackground() {
           alt=""
           fill
           quality={100}
-          className="object-cover opacity-100"
+          className="object-cover object-top -scale-100 opacity-100"
           priority
           aria-hidden="true"
         />
