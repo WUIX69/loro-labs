@@ -36,7 +36,7 @@ export const CAROUSEL_SLIDES: CarouselSlide[] = [
 ]
 
 // ─── Testimonials ────────────────────────────────────────────────────────────
-export type TestimonialBorder = "green-500" | "blue-500" | "loro-red"
+export type TestimonialBorder = "green-500" | "blue-500" | "destructive"
 
 export interface Testimonial {
   id: string
@@ -76,7 +76,7 @@ export const TESTIMONIALS: Testimonial[] = [
     title: "Creative Director",
     company: "Vivid Global",
     quote: "Working with a studio that understands both the code and the color is rare. Loro Labs is our go-to partner for anything that needs to stand out and scale fast.",
-    avatarBorder: "loro-red",
+    avatarBorder: "destructive",
     avatarUrl: "https://lh3.googleusercontent.com/aida/AP1WRLtkeyMxCo1QrbMVqadWNDyOk7IWS4HpsZX2TI0rac0JIaEzhFBB5yjccbqr50pMCIE2NTbxUbLBZ9LIe17k1Si6KPOVcxzE_JMb9svBl_BTEqy89p-T2dY18g33umPYWoLQB5Qu2SbxV2fihv06bprxDBoBFVhyFw-P-z-imgrR_NZ-JpKEv1kZG_SmbevFEVo-r7129dax3OgkglHiCj1G2i3IhUF_7cUHHn4DjlBpgnwiCRg5bUX3JdM",
     avatarFallback: "MG",
   },
@@ -92,5 +92,5 @@ export const BRAND_PARROT_URL =
 export const TESTIMONIALS_BG_URL =
   "https://lh3.googleusercontent.com/aida-public/AB6AXuDex_d2_nqb5hX8S3qQboUqbZ2sKoj4az0kvZguoCFMTqM4psHlVhJpZK7f_jI7XfnFTWUzhNQenYQAChN72-bvJEhF0xdYU_RYeKwBEFXk6SZaGqX9exLtpuugbzQs0pF2Jn7pzXstGTPfwCqlEVd_IU227bOACCi9ntMzuSzNtSn0CcfyDdnxpTzfbFb4WVbMVWnjLXW4f6WqBml-b1Bowc8ssPSwQs9NodkPqpHy9uECM7bLn8EPZAFr8OSXJes7bA"
 
-export const LOGO_HEADER_URL = "https://lh3.googleusercontent.com/aida/AP1WRLuIWQg55NCGXbOzWr5i4OEtJDrksjzt_1ZKG9tklFyzk7C-QPtMxlLxT9rjX3AND1ov07Xx74UD8iwcArdrCbwLEj_7C8nWBNaVj19B6-O0p1FPtgKMzODUYI4Vb7X6a7twXHNvcfn9Og6QrgAq5MP7gOFXDtUuJ8hYlPattz0cqX48EfmQxqbKGipEFPPZI-2jzgYUkIZbDTHl74icRZ3Zk2utM9thW29mpDBdrZu7JppE2lda1siKIQ"
-export const LOGO_FOOTER_URL = "https://lh3.googleusercontent.com/aida-public/AB6AXuBJIFw_W-p6GwJxaFXq_KW7F3WiqSzrL2ymH6DG9cTVUz1Zk71Ue2QHDSjBZB-pBj8zq0GNJ_kl-H4HWLE6fYmvH1a0R-l4Hcr3w9M0k6Q1vF-sSb5bX2jS3oPHgdq-lJJNyX7TlCw6L7O_YJRomUVcExbqP-TxW38fQRknQ5e9Ux9R2wqCj0_VKBSY5rZMn6hgVLX0E1lJU5SHV96aCHs8bwCK6FcyO-m4tHEAYFQOBnGnLbMCjI"
+export const LOGO_HEADER_URL = "/loro-logo.png"
+export const LOGO_FOOTER_URL = "/loro-logo.png"

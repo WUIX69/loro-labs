@@ -33,7 +33,7 @@ export function MobileNav() {
               {link.label}
             </Link>
           ))}
-          <Button className="rounded-full bg-primary text-white mt-4 font-semibold">
+          <Button className="rounded-full bg-destructive text-destructive-foreground mt-4 font-semibold">
             Get a Quote
           </Button>
         </nav>

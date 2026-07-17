@@ -16,7 +16,7 @@ const SOCIAL_ICONS = [
 
 export function Footer() {
   return (
-    <footer className="bg-background text-sage-canvas w-full py-24 pb-12">
+    <footer className="bg-[#0e0f0c] text-white w-full py-24 pb-12">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 px-4 md:px-12 max-w-7xl mx-auto">
 
         {/* Brand column */}
@@ -37,7 +37,7 @@ export function Footer() {
                 key={label}
                 href="#"
                 aria-label={label}
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-primary transition-all"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 text-white/80 hover:text-white hover:bg-destructive transition-all"
               >
                 <Icon className="size-4" />
               </Link>
@@ -51,7 +51,7 @@ export function Footer() {
           <ul className="space-y-4">
             {STUDIO_LINKS.map(link => (
               <li key={link}>
-                <Link href="#" className="opacity-80 hover:opacity-100 hover:text-yellow-500 transition-colors text-sm">
+                <Link href="#" className="opacity-80 hover:opacity-100 text-white/70 hover:text-primary transition-colors text-sm">
                   {link}
                 </Link>
               </li>
@@ -65,7 +65,7 @@ export function Footer() {
           <ul className="space-y-4">
             {SERVICE_LINKS.map(link => (
               <li key={link}>
-                <Link href="#" className="opacity-80 hover:opacity-100 hover:text-yellow-500 transition-colors text-sm">
+                <Link href="#" className="opacity-80 hover:opacity-100 text-white/70 hover:text-primary transition-colors text-sm">
                   {link}
                 </Link>
               </li>
@@ -83,10 +83,10 @@ export function Footer() {
             <Input
               type="email"
               placeholder="hello@example.com"
-              className="bg-white/5 border-white/10 text-white placeholder:text-white/40 rounded-full"
+              className="bg-white/10 border-white/20 text-white placeholder:text-white/40 rounded-full"
               required
             />
-            <Button size="icon" type="submit" className="rounded-full bg-primary hover:bg-primary/90 text-white shrink-0">
+            <Button size="icon" type="submit" className="rounded-full bg-destructive hover:bg-destructive/90 text-destructive-foreground shrink-0">
               <Send className="size-4" />
             </Button>
           </form>
@@ -103,7 +103,7 @@ export function Footer() {
             <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="#" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
-          <p>Quezon City, PH</p>
+          <span style={{ color: 'oklch(0.6758 0.1453 238.462)' }} className="font-bold">Quezon City, PH</span>
         </div>
       </div>
     </footer>

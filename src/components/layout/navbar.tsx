@@ -17,7 +17,7 @@ export function Navbar() {
     <header
       id="main-nav"
       className={cn(
-        "fixed top-0 w-full z-50 bg-background/90 backdrop-blur-md border-b border-border transition-all duration-300",
+        "fixed top-0 w-full z-50 bg-background/60 backdrop-blur-md border-b border-border transition-all duration-300",
         isScrolled ? "h-16 shadow-xl" : "h-20"
       )}
     >
@@ -45,8 +45,8 @@ export function Navbar() {
                 className={cn(
                   "transition-colors",
                   isActive
-                    ? "text-primary font-bold border-b-2 border-primary pb-0.5"
-                    : "text-muted-foreground hover:text-primary"
+                    ? "text-destructive font-bold border-b-2 border-destructive pb-0.5"
+                    : "text-muted-foreground hover:text-destructive"
                 )}
               >
                 {link.label}
@@ -56,8 +56,7 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          {/* Desktop CTA */}
-          <Button className="hidden md:inline-flex rounded-full bg-primary text-white px-6 py-3 font-semibold shadow-lg hover:bg-primary/90">
+          <Button className="hidden md:inline-flex rounded-full bg-destructive text-destructive-foreground px-4 py-2 text-sm shadow-lg hover:bg-destructive/90 h-auto">
             Get a Quote
           </Button>
           {/* Mobile hamburger */}

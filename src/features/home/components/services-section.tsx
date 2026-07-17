@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-// AUDIT FIX #9: Removed unused Lightbulb, Eye. AUDIT FIX #7: BrainCircuit ≈ psychology (FILL=1) — best Lucide match
 import { Code2, BrainCircuit, ArrowRight } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { cn } from "@/lib/utils"
 
 const BRAND_COLORS = {
-  "loro-red":      "var(--loro-red)",
-  "blue-500":   "var(--blue-500)",
-  "green-500":  "var(--green-500)",
-  "yellow-500": "var(--yellow-500)",
+  "destructive": "oklch(0.6356 0.2082 25.3782)",
+  "chart-4": "oklch(0.6758 0.1453 238.462)",
+  "primary": "oklch(0.6230 0.1688 149.178)",
+  "secondary": "oklch(0.8611 0.1734 91.964)",
 } as const
 
 // 4×4 color grid pattern — inline styles to prevent Tailwind purge
 const GRID_PATTERN = [
-  "loro-red","blue-500","green-500","yellow-500",
-  "blue-500","loro-red","yellow-500","green-500",
-  "green-500","yellow-500","loro-red","blue-500",
-  "yellow-500","green-500","blue-500","loro-red",
+  "destructive","chart-4","primary","secondary",
+  "chart-4","destructive","secondary","primary",
+  "primary","secondary","destructive","chart-4",
+  "secondary","primary","chart-4","destructive",
 ] as const
 
 export function ServicesSection() {
@@ -26,7 +26,7 @@ export function ServicesSection() {
       <div className="max-w-7xl mx-auto">
         <header className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-extrabold text-foreground mb-3">
-            Our <span className="text-blue-500">Studio</span> Services
+            Our <span style={{ color: 'oklch(0.6758 0.1453 238.462)' }}>Studio</span> Services
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto text-sm">
             We provide full-spectrum digital creation services, from architecture to aesthetic.
@@ -39,16 +39,16 @@ export function ServicesSection() {
           <article className="md:col-span-8" aria-label="Web & App Development service" role="listitem">
             <Card className={cn(
               "group bg-muted rounded-[32px] p-12 relative overflow-hidden min-h-[420px]",
-              "flex flex-col justify-between hover:bg-primary transition-all duration-500 border-0 h-full"
+              "flex flex-col justify-between hover:bg-destructive transition-all duration-500 border-0 h-full"
             )}>
               <CardContent className="p-0 flex flex-col h-full justify-between">
                 <div>
                   <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-all shadow-sm">
-                    <Code2 className="size-7 text-primary" aria-hidden="true" />
+                    <Code2 className="size-7 text-destructive" aria-hidden="true" />
                   </div>
                   <h3 className="text-3xl font-extrabold mb-3 group-hover:text-white">
                     Web &amp; App{" "}
-                    <span className="text-primary group-hover:text-white">Development</span>
+                    <span className="text-destructive group-hover:text-white">Development</span>
                   </h3>
                   <p className="text-muted-foreground group-hover:text-white/90 max-w-md text-sm leading-relaxed">
                     High-performance architectures tailored for scale. We build responsive, accessible,
@@ -59,7 +59,7 @@ export function ServicesSection() {
                   {["Next.js", "Tailwind", "React Native"].map(tag => (
                     <Badge
                       key={tag}
-                      className="bg-white/20 backdrop-blur-md text-xs font-bold group-hover:bg-white group-hover:text-primary transition-all rounded-full px-3 py-1"
+                      className="bg-white/20 backdrop-blur-md text-xs font-bold group-hover:bg-white group-hover:text-destructive transition-all rounded-full px-3 py-1"
                     >
                       {tag}
                     </Badge>
@@ -71,14 +71,14 @@ export function ServicesSection() {
 
           {/* AI Content — 4/12 */}
           <article className="md:col-span-4" aria-label="AI Content service" role="listitem">
-            <Card className="bg-blue-500 rounded-[32px] p-12 flex flex-col items-start justify-end min-h-[420px] border-0 group hover:-translate-y-2 transition-all duration-500 shadow-lg h-full">
+            <Card className="rounded-[32px] p-12 flex flex-col items-start justify-end min-h-[420px] border-0 group hover:-translate-y-2 transition-all duration-500 shadow-lg h-full" style={{ backgroundColor: 'oklch(0.6758 0.1453 238.462)' }}>
               <CardContent className="p-0 w-full flex flex-col h-full">
                 <div className="mb-auto pb-6">
                   <BrainCircuit className="size-14 text-white" aria-hidden="true" />
                 </div>
                 <div>
                   <h3 className="text-3xl font-extrabold text-white mb-3">
-                    AI <span style={{ color: "var(--blue-500)", filter: "brightness(2)" }}>Content</span>
+                    AI <span style={{ color: "oklch(0.6758 0.1453 238.462)", filter: "brightness(2)" }}>Content</span>
                   </h3>
                   <p className="text-white/90 text-sm leading-relaxed">
                     Leveraging machine intelligence for generation, curation, and creative workflows that push boundaries.
@@ -96,31 +96,27 @@ export function ServicesSection() {
 
           {/* Consulting — 6/12 */}
           <article className="md:col-span-6" aria-label="Creative Consulting service" role="listitem">
-            <Card className="bg-green-500 rounded-[32px] p-12 flex flex-col justify-between border-0 group hover:shadow-xl transition-all duration-300 h-full min-h-[300px]">
+            <Card className="bg-primary rounded-[32px] p-12 flex flex-col justify-between border-0 group hover:shadow-xl transition-all duration-300 h-full min-h-[300px]">
               <CardContent className="p-0 flex flex-col h-full justify-between">
                 <div>
-                  <Badge className="bg-white text-green-900 rounded-full px-3 py-1 text-xs font-bold mb-6">
+                  <Badge className="bg-background text-primary rounded-full px-3 py-1 text-xs font-bold mb-6">
                     STRATEGY
                   </Badge>
-                  <h3 className="text-3xl font-extrabold text-green-900 mb-3">
-                    <span className="text-green-900/80">Creative</span> Consulting
+                  <h3 className="text-3xl font-extrabold text-primary-foreground mb-3">
+                    <span className="text-primary-foreground/80">Creative</span> Consulting
                   </h3>
-                  <p className="text-green-900 font-medium text-sm leading-relaxed">
+                  <p className="text-primary-foreground font-medium text-sm leading-relaxed">
                     Bridging the gap between business logic and creative vision. We help you find the
                     &ldquo;Why&rdquo; before we build the &ldquo;How&rdquo;.
                   </p>
                 </div>
                 <div className="flex items-center justify-between mt-6">
                   <div className="flex -space-x-3" aria-label="Partner avatars">
-                    {[...Array(3)].map((_, i) => (
-                      <div
-                        key={i}
-                        className="w-14 h-14 rounded-full border-4 border-white bg-green-200 overflow-hidden"
-                        aria-hidden="true"
-                      />
-                    ))}
+                    <Image src="https://lh3.googleusercontent.com/aida/AP1WRLtkeyMxCo1QrbMVqadWNDyOk7IWS4HpsZX2TI0rac0JIaEzhFBB5yjccbqr50pMCIE2NTbxUbLBZ9LIe17k1Si6KPOVcxzE_JMb9svBl_BTEqy89p-T2dY18g33umPYWoLQB5Qu2SbxV2fihv06bprxDBoBFVhyFw-P-z-imgrR_NZ-JpKEv1kZG_SmbevFEVo-r7129dax3OgkglHiCj1G2i3IhUF_7cUHHn4DjlBpgnwiCRg5bUX3JdM" alt="Sarah Avatar" width={56} height={56} className="w-14 h-14 rounded-full border-4 border-white object-cover object-[28%_30%]" />
+                    <Image src="https://lh3.googleusercontent.com/aida/AP1WRLtkeyMxCo1QrbMVqadWNDyOk7IWS4HpsZX2TI0rac0JIaEzhFBB5yjccbqr50pMCIE2NTbxUbLBZ9LIe17k1Si6KPOVcxzE_JMb9svBl_BTEqy89p-T2dY18g33umPYWoLQB5Qu2SbxV2fihv06bprxDBoBFVhyFw-P-z-imgrR_NZ-JpKEv1kZG_SmbevFEVo-r7129dax3OgkglHiCj1G2i3IhUF_7cUHHn4DjlBpgnwiCRg5bUX3JdM" alt="David Avatar" width={56} height={56} className="w-14 h-14 rounded-full border-4 border-white object-cover object-[72%_30%]" />
+                    <Image src="https://lh3.googleusercontent.com/aida/AP1WRLtkeyMxCo1QrbMVqadWNDyOk7IWS4HpsZX2TI0rac0JIaEzhFBB5yjccbqr50pMCIE2NTbxUbLBZ9LIe17k1Si6KPOVcxzE_JMb9svBl_BTEqy89p-T2dY18g33umPYWoLQB5Qu2SbxV2fihv06bprxDBoBFVhyFw-P-z-imgrR_NZ-JpKEv1kZG_SmbevFEVo-r7129dax3OgkglHiCj1G2i3IhUF_7cUHHn4DjlBpgnwiCRg5bUX3JdM" alt="Maria Avatar" width={56} height={56} className="w-14 h-14 rounded-full border-4 border-white object-cover object-[28%_70%]" />
                   </div>
-                  <span className="font-black text-green-900 text-lg">32+ Partners</span>
+                  <span className="font-black text-primary-foreground text-lg">32+ Partners</span>
                 </div>
               </CardContent>
             </Card>
@@ -128,12 +124,12 @@ export function ServicesSection() {
 
           {/* Immersive Vision — 6/12 */}
           <article className="md:col-span-6" aria-label="Immersive Vision showcase" role="listitem">
-            <Card className="bg-background rounded-[32px] p-12 text-white flex items-center justify-center relative overflow-hidden border-0 group shadow-lg min-h-[300px] h-full">
+            <Card className="bg-foreground rounded-[32px] p-12 text-background flex items-center justify-center relative overflow-hidden border-0 group shadow-lg min-h-[300px] h-full">
               <CardContent className="p-0 relative z-10 text-center">
-                <div className="text-7xl font-black text-yellow-500 mb-2 drop-shadow-lg">100%</div>
+                <div className="text-7xl font-black text-secondary mb-2 drop-shadow-lg">100%</div>
                 <div className="text-3xl font-extrabold">
                   Immersive{" "}
-                  <span className="text-4xl" style={{ color: "var(--orange-500, #ffc091)" }}>Vision</span>
+                  <span className="text-4xl" style={{ color: '#ffc091' }}>Vision</span>
                 </div>
               </CardContent>
               {/* Color grid — inline styles prevent Tailwind purge */}

@@ -201,10 +201,22 @@
 }
 
 @keyframes rainbow-pulse {
-  0%, 100% { border-color: var(--primary); }
-  25%       { border-color: var(--chart-4); }
-  50%       { border-color: var(--chart-5); }
-  75%       { border-color: var(--accent); }
+  0%, 100% { 
+    border-color: oklch(0.6356 0.2082 25.3782); /* destructive */
+    box-shadow: 0 0 30px oklch(0.6356 0.2082 25.3782 / 0.5);
+  }
+  25% { 
+    border-color: oklch(0.6758 0.1453 238.462); /* chart-4 */
+    box-shadow: 0 0 30px oklch(0.6758 0.1453 238.462 / 0.5);
+  }
+  50% { 
+    border-color: oklch(0.6230 0.1688 149.178); /* primary */
+    box-shadow: 0 0 30px oklch(0.6230 0.1688 149.178 / 0.5);
+  }
+  75% { 
+    border-color: oklch(0.8611 0.1734 91.964);  /* secondary */
+    box-shadow: 0 0 30px oklch(0.8611 0.1734 91.964 / 0.5);
+  }
 }
 
 @keyframes infinite-scroll {

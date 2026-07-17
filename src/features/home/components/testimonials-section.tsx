@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 const BORDER_MAP = {
   "green-500": "border-green-500",
   "blue-500":  "border-blue-500",
-  "loro-red":     "border-primary",
+  "destructive": "border-destructive",
 } as const
 
 export function TestimonialsSection() {
@@ -29,7 +29,7 @@ export function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 md:px-12">
         <header className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-extrabold text-foreground mb-3">
-            What Our <span className="text-blue-500">Partners</span> Say
+            What Our <span style={{ color: 'oklch(0.6758 0.1453 238.462)' }}>Partners</span> Say
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto text-sm">
             Success stories from teams who gave their ideas wings with Loro Labs.

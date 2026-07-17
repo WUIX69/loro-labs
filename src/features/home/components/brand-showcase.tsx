@@ -5,23 +5,16 @@ import { BRAND_PARROT_URL } from "@/data/home"
 
 const BRAND_FEATURES = [
   {
-    color: "primary" as const,
+    color: "destructive" as const,
     title: "Smart Automation",
     body: "Streamlining workflows with intelligent parrot-fast logic.",
   },
   {
-    color: "blue-500" as const,
+    color: "chart-4" as const,
     title: "Global Reach",
     body: "Designed in Quezon City, scaled for the world.",
   },
 ]
-
-type BrandColor = "primary" | "blue-500"
-
-const BG_MAP: Record<BrandColor, string> = {
-  "primary": "bg-primary",
-  "blue-500": "bg-blue-500",
-}
 
 export function BrandShowcase() {
   return (
@@ -32,7 +25,7 @@ export function BrandShowcase() {
         <div className="w-full md:w-1/2">
           <h2 className="text-5xl md:text-7xl font-black text-foreground leading-tight mb-6">
             Intelligence meets{" "}
-            <span className="text-primary">vibrancy</span>.
+            <span className="text-destructive">vibrancy</span>.
           </h2>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
             Just like our mascot, we thrive in diverse environments, bringing color and sharp
@@ -44,8 +37,9 @@ export function BrandShowcase() {
                 <div
                   className={cn(
                     "mt-1 w-10 h-10 rounded-full flex-shrink-0 flex items-center justify-center text-white shadow-md",
-                    BG_MAP[f.color]
+                    f.color === "destructive" && "bg-destructive"
                   )}
+                  style={f.color === "chart-4" ? { backgroundColor: 'oklch(0.6758 0.1453 238.462)' } : undefined}
                   aria-hidden="true"
                 >
                   <Check className="size-5" />
@@ -59,10 +53,10 @@ export function BrandShowcase() {
           </ul>
         </div>
 
-        {/* Image side — rainbow-pulse animated circle */}
+        {/* Image side */}
         <div className="w-full md:w-1/2 flex justify-center">
           <div
-            className="relative aspect-square w-full max-w-md rounded-full border-8 p-2"
+            className="relative aspect-square w-full max-w-md rounded-full border-8 p-2 overflow-hidden"
             style={{ animation: "rainbow-pulse 4s infinite linear" }}
             aria-hidden="true"
           >
