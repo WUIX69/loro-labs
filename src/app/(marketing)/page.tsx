@@ -6,6 +6,7 @@ import {
   TestimonialsSection,
   CtaBanner,
 } from "@/features/home/components"
+import { ScrollReveal } from "@/components/ui/scroll-reveal"
 
 export const metadata: Metadata = {
   title: "Loro Labs — Creative Tech Studio",
@@ -21,11 +22,21 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      <HeroSection />
-      <ServicesSection />
-      <BrandShowcase />
-      <TestimonialsSection />
-      <CtaBanner />
+      <ScrollReveal delay={0}>
+        <HeroSection />
+      </ScrollReveal>
+      <ScrollReveal delay={100}>
+        <ServicesSection />
+      </ScrollReveal>
+      <ScrollReveal delay={200}>
+        <BrandShowcase />
+      </ScrollReveal>
+      <ScrollReveal delay={300}>
+        <TestimonialsSection />
+      </ScrollReveal>
+      <ScrollReveal delay={400}>
+        <CtaBanner />
+      </ScrollReveal>
     </>
   )
 }
