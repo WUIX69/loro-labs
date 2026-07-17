@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { useScrollY } from "@/hooks/use-scroll"
 import { MobileNav } from "./mobile-nav"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { NAV_LINKS, LOGO_HEADER_URL } from "@/data/home"
 
 export function Navbar() {
@@ -17,8 +18,10 @@ export function Navbar() {
     <header
       id="main-nav"
       className={cn(
-        "fixed top-0 w-full z-50 bg-background/60 backdrop-blur-md border-b border-border transition-all duration-300",
-        isScrolled ? "h-16 shadow-xl" : "h-20"
+        "fixed top-0 w-full z-50 transition-all duration-300",
+        isScrolled
+          ? "h-16 shadow-xl bg-background/60 backdrop-blur-md border-b border-border"
+          : "h-20 bg-background/20 backdrop-blur-sm border-transparent"
       )}
     >
       <nav className="flex justify-between items-center h-full px-4 md:px-12">
@@ -56,6 +59,7 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
+          <ThemeToggle />
           <Button className="hidden md:inline-flex rounded-full bg-destructive text-destructive-foreground px-4 py-2 text-sm shadow-lg hover:bg-destructive/90 h-auto">
             Get a Quote
           </Button>

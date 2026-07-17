@@ -16,7 +16,7 @@ export function MobileNav() {
       }>
         <Menu className="size-6" />
       </SheetTrigger>
-      <SheetContent side="right" className="bg-background w-72 pt-12">
+      <SheetContent side="right" className="bg-background w-72 pt-12 px-8">
         <SheetClose render={
           <Button variant="ghost" size="icon" className="absolute top-4 right-4" aria-label="Close menu" />
         }>
@@ -33,7 +33,7 @@ export function MobileNav() {
               {link.label}
             </Link>
           ))}
-          <Button className="rounded-full bg-destructive text-destructive-foreground mt-4 font-semibold">
+          <Button className="rounded-full bg-destructive text-destructive-foreground mt-4 px-8 py-5 font-semibold">
             Get a Quote
           </Button>
         </nav>

@@ -8,7 +8,7 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-[95vh] flex flex-col items-center justify-center text-center px-4 md:px-12 bg-background overflow-hidden pb-12"
+      className="relative min-h-[95vh] flex flex-col items-center justify-center text-center px-4 md:px-12 bg-background overflow-hidden pb-12 pt-20"
     >
       {/* GPU-composited parallax (client leaf) */}
       <ParallaxBackground />

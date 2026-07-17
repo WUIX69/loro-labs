@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge"
 export function PricingHero() {
   return (
     <ScrollReveal>
-      <section className="px-4 md:px-12 max-w-7xl mx-auto mb-24 pt-12">
+      <section className="px-4 md:px-12 max-w-7xl mx-auto mb-24 pt-24">
         <div className="text-center md:text-left max-w-4xl">
           <Badge className="inline-flex px-3 py-4 bg-primary/20 rounded-full text-primary font-bold mb-6 shadow-sm uppercase tracking-widest text-xs">
             Our Pricing Model

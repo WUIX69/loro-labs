@@ -19,7 +19,7 @@ interface ContactSheetProps {
 export function ContactSheet({ open, onOpenChange }: ContactSheetProps) {
   return (
     <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent side="right" className="w-full sm:max-w-md bg-background pt-12 overflow-y-auto">
+      <SheetContent side="right" className="w-full sm:max-w-md bg-background pt-12 px-10 overflow-y-auto">
         <SheetClose render={
           <Button
             variant="ghost"

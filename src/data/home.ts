@@ -2,7 +2,7 @@
 export const NAV_LINKS = [
   { label: "Home",      href: "/" },
   { label: "Services",  href: "/services" },
-  { label: "Showcase",  href: "#showcase" },
+  { label: "Showcase",  href: "/showcase" },
   { label: "Pricing",   href: "/pricing" },
 ] as const
 
@@ -85,7 +85,6 @@ export const TESTIMONIALS: Testimonial[] = [
 // ─── Hero background ────────────────────────────────────────────────────────
 export const HERO_BG_URL =
   "https://lh3.googleusercontent.com/aida-public/AB6AXuCTGpmBeqYgGmseaHsvzAPJgYZbUb23ikU9QmY_QXIMv6-ZmDv9F8FpIflDzxoQjJ1od8QuKFSG57Y1xxLDG3-b2L4SxYx8RGnIpm8S88IIRZv6U7OLkWb0P3lQeyWp2VcZ5DYXitJYQeZV2yZ8pSNoam_OB1QJ9qvLdpaThNs-949ppMQNN9h89NP0dwo6l3_W0B59vHhHkLNG7_AY4XFmnAs7IAxCILfrz7VgEdxHe61CDMqQ-afQ9bk4KXrHEvKLOQ"
-
 export const BRAND_PARROT_URL =
   "https://lh3.googleusercontent.com/aida/AP1WRLuIWQg55NCGXbOzWr5i4OEtJDrksjzt_1ZKG9tklFyzk7C-QPtMxlLxT9rjX3AND1ov07Xx74UD8iwcArdrCbwLEj_7C8nWBNaVj19B6-O0p1FPtgKMzODUYI4Vb7X6a7twXHNvcfn9Og6QrgAq5MP7gOFXDtUuJ8hYlPattz0cqX48EfmQxqbKGipEFPPZI-2jzgYUkIZbDTHl74icRZ3Zk2utM9thW29mpDBdrZu7JppE2lda1siKIQ"
 

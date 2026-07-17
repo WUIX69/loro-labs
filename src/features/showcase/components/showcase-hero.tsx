@@ -10,7 +10,7 @@ const FEATHER_IMG =
 export function ShowcaseHero() {
   return (
     <ScrollReveal>
-      <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+      <section className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             alt="Vibrant feather macro background"
