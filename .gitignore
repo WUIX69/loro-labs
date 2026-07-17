@@ -41,6 +41,11 @@ next-env.d.ts
 .claude
 .opencode
 .github
+.gemini
 
 # others
 /temp
+
+# graphify
+graphify-out/cost.json
+graphify-out/cache/
