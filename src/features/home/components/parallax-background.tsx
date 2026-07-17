@@ -19,15 +19,15 @@ export function ParallaxBackground() {
       >
         <Image
           src={HERO_BG_URL}
-          alt=""           // decorative — empty alt
+          alt=""
           fill
-          className="object-cover opacity-70"
+          quality={100}
+          className="object-cover opacity-100"
           priority
           aria-hidden="true"
         />
       </div>
-      {/* Gradient vignette */}
-      <div className="absolute inset-0 bg-gradient-to-b from-loro-ink/30 via-loro-ink/50 to-loro-ink/90" />
+      <div className="absolute inset-0 bg-gradient-to-b from-loro-ink/20 via-loro-ink/30 to-loro-ink/70" />
     </div>
   )
 }

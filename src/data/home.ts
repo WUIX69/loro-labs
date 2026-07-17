@@ -1,9 +1,9 @@
 // ─── Navigation ─────────────────────────────────────────────────────────────
 export const NAV_LINKS = [
   { label: "Home",      href: "/" },
-  { label: "Services",  href: "#services" },
+  { label: "Services",  href: "/services" },
   { label: "Showcase",  href: "#showcase" },
-  { label: "Pricing",   href: "#pricing" },
+  { label: "Pricing",   href: "/pricing" },
 ] as const
 
 // ─── Hero Carousel ──────────────────────────────────────────────────────────

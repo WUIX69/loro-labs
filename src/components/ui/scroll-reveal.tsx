@@ -7,9 +7,10 @@ interface ScrollRevealProps {
   children: ReactNode
   className?: string
   delay?: number
+  as?: React.ElementType
 }
 
-export function ScrollReveal({ children, className, delay }: ScrollRevealProps) {
+export function ScrollReveal({ children, className, delay, as: Component = "div" }: ScrollRevealProps) {
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -33,12 +34,12 @@ export function ScrollReveal({ children, className, delay }: ScrollRevealProps) 
   }, [])
 
   return (
-    <div
+    <Component
       ref={ref}
       className={cn("animate-on-scroll", className)}
       style={delay ? { transitionDelay: `${delay}ms` } : undefined}
     >
       {children}
-    </div>
+    </Component>
   )
 }
