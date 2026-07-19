@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import Image from "next/image"
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 import { Rocket } from "lucide-react"
 
 const HERO_IMG = "https://lh3.googleusercontent.com/aida-public/AB6AXuCTGpmBeqYgGmseaHsvzAPJgYZbUb23ikU9QmY_QXIMv6-ZmDv9F8FpIflDzxoQjJ1od8QuKFSG57Y1xxLDG3-b2L4SxYx8RGnIpm8S88IIRZv6U7OLkWb0P3lQeyWp2VcZ5DYXitJYQeZV2yZ8pSNoam_OB1QJ9qvLdpaThNs-949ppMQNN9h89NP0dwo6l3_W0B59vHhHkLNG7_AY4XFmnAs7IAxCILfrz7VgEdxHe61CDMqQ-afQ9bk4KXrHEvKLOQ"

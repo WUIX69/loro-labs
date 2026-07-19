@@ -8,6 +8,7 @@ export const NAV_LINKS = [
 
 // ─── Hero Carousel ──────────────────────────────────────────────────────────
 export interface CarouselSlide {
+  id: string
   title: string
   body: string
   alt: string
@@ -16,18 +17,21 @@ export interface CarouselSlide {
 
 export const CAROUSEL_SLIDES: CarouselSlide[] = [
   {
+    id: "slide-vibrancy-every-pixel",
     title: "Vibrancy in Every Pixel",
     body: "Intelligence meets imagination at Loro Labs. Building the tools of tomorrow with colorful precision.",
     alt: "Tech parrot innovating at holographic screen",
     imageUrl: "https://lh3.googleusercontent.com/aida/AP1WRLuIWQg55NCGXbOzWr5i4OEtJDrksjzt_1ZKG9tklFyzk7C-QPtMxlLxT9rjX3AND1ov07Xx74UD8iwcArdrCbwLEj_7C8nWBNaVj19B6-O0p1FPtgKMzODUYI4Vb7X6a7twXHNvcfn9Og6QrgAq5MP7gOFXDtUuJ8hYlPattz0cqX48EfmQxqbKGipEFPPZI-2jzgYUkIZbDTHl74icRZ3Zk2utM9thW29mpDBdrZu7JppE2lda1siKIQ",
   },
   {
+    id: "slide-creative-engineering",
     title: "Creative Engineering",
     body: "We don't just solve problems; we imagine possibilities. Precision in design, boldness in color.",
     alt: "Parrot style creative",
     imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuC6f_2XFU00UMXAZ_6KJx6VZ-ky_K9GNASKFa5vJ-inx8YgiwUN--9oY08BqrgaVSMHjswovGhYAv19tY2HaVFJvd2DOgXrnyOzbTOJm1sdAqhOieYBQ7GZOaelfa_GPnz0eJF8Gp8X_26lZs2DJ_Ui5OFTENJBXQSByH7vA1N8faS2EslH7wXAmoNIsNv-m3TiSxWHlrSy8lkbEA1yKKGpkTRhCaDfmduq8l3tbIH7T0xJd9JJHzbzpduWpCjFTMkRLg",
   },
   {
+    id: "slide-infinite-imagination",
     title: "Infinite Imagination",
     body: "Nature's patterns, translated for the digital age. Fluid creativity for a fast-moving world.",
     alt: "Vibrant feathers macro photography",

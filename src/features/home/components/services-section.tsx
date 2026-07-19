@@ -33,10 +33,11 @@ export function ServicesSection() {
           </p>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-6" role="list">
+        <ul className="grid grid-cols-1 md:grid-cols-12 gap-6 list-none p-0 m-0">
 
           {/* Web & App Dev — 8/12 */}
-          <article className="md:col-span-8" aria-label="Web & App Development service" role="listitem">
+          <li className="md:col-span-8 h-full">
+            <article className="h-full" aria-label="Web & App Development service">
             <Card className={cn(
               "group bg-muted rounded-[32px] p-12 relative overflow-hidden min-h-[420px]",
               "flex flex-col justify-between hover:bg-destructive transition-all duration-500 border-0 h-full"
@@ -67,10 +68,12 @@ export function ServicesSection() {
                 </div>
               </CardContent>
             </Card>
-          </article>
+            </article>
+          </li>
 
           {/* AI Content — 4/12 */}
-          <article className="md:col-span-4" aria-label="AI Content service" role="listitem">
+          <li className="md:col-span-4 h-full">
+            <article className="h-full" aria-label="AI Content service">
             <Card className="rounded-[32px] p-12 flex flex-col items-start justify-end min-h-[420px] border-0 group hover:-translate-y-2 transition-all duration-500 shadow-lg h-full" style={{ backgroundColor: 'oklch(0.6758 0.1453 238.462)' }}>
               <CardContent className="p-0 w-full flex flex-col h-full">
                 <div className="mb-auto pb-6">
@@ -92,10 +95,12 @@ export function ServicesSection() {
                 </div>
               </CardContent>
             </Card>
-          </article>
+            </article>
+          </li>
 
           {/* Consulting — 6/12 */}
-          <article className="md:col-span-6" aria-label="Creative Consulting service" role="listitem">
+          <li className="md:col-span-6 h-full">
+            <article className="h-full" aria-label="Creative Consulting service">
             <Card className="bg-primary rounded-[32px] p-12 flex flex-col justify-between border-0 group hover:shadow-xl transition-all duration-300 h-full min-h-[300px]">
               <CardContent className="p-0 flex flex-col h-full justify-between">
                 <div>
@@ -120,10 +125,12 @@ export function ServicesSection() {
                 </div>
               </CardContent>
             </Card>
-          </article>
+            </article>
+          </li>
 
           {/* Immersive Vision — 6/12 */}
-          <article className="md:col-span-6" aria-label="Immersive Vision showcase" role="listitem">
+          <li className="md:col-span-6 h-full">
+            <article className="h-full" aria-label="Immersive Vision showcase">
             <Card className="bg-foreground rounded-[32px] p-12 text-background flex items-center justify-center relative overflow-hidden border-0 group shadow-lg min-h-[300px] h-full">
               <CardContent className="p-0 relative z-10 text-center">
                 <div className="text-7xl font-black text-secondary mb-2 drop-shadow-lg">100%</div>
@@ -148,9 +155,10 @@ export function ServicesSection() {
                 </div>
               </div>
             </Card>
-          </article>
+            </article>
+          </li>
 
-        </div>
+        </ul>
       </div>
     </section>
   )

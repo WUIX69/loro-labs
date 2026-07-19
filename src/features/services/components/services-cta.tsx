@@ -1,4 +1,4 @@
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 
 export function ServicesCta() {
   return (
@@ -14,7 +14,10 @@ export function ServicesCta() {
           <p className="text-xl md:text-2xl text-background/80 max-w-2xl mx-auto mb-12">
             Let&apos;s discuss how our expertise can help you achieve your business goals. Get in touch for a custom quote tailored to your specific needs.
           </p>
-          <button className="bg-destructive text-white px-[56px] py-6 rounded-full text-base font-black hover:scale-110 transition-transform active:scale-95 shadow-destructive/30 shadow-2xl uppercase">
+          <button
+            type="button"
+            className="bg-destructive text-white px-[56px] py-6 rounded-full text-base font-black hover:scale-110 transition-transform active:scale-95 shadow-destructive/30 shadow-2xl uppercase"
+          >
             Request a Free Quote
           </button>
         </div>

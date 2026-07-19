@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 import { MessageCircle, Sparkles, ChevronRight } from "lucide-react"
 
 const CHAT_UI_IMG =

@@ -1,16 +1,16 @@
 import Image from "next/image"
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 import { FileEdit, CheckCircle2 } from "lucide-react"
 
 const AI_IMG = "https://lh3.googleusercontent.com/aida-public/AB6AXuDnxsTfbT49WIIy61n3wMu66eeal5ThLhmBdbt8BvqClp-19ZZ3zjiBWyBmD0LwSQHGeC_XdEiHamb_n0iiDbWT5zpXyJdkAdbd1b4DCSMM8sECyfF8eXTtaCz3GMsUqsOgTkLyUa7n_CCyvfzP1q7MgU798LMX9eGpdwlI-xIxy69AT717fB27ocwsWnBsJemX_j0rCvdBiF0nb2SHLMw3tPVByEP_SrYg4rgHH5rteawTSCbfLO44"
 
-export function ServicesAi() {
-  const features = [
-    "Branded Copywriting",
-    "Custom Image Generation",
-    "Automated Video Production",
-  ]
+const AI_FEATURES = [
+  "Branded Copywriting",
+  "Custom Image Generation",
+  "Automated Video Production",
+] as const
 
+export function ServicesAi() {
   return (
     <section className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 md:px-12">
@@ -44,7 +44,7 @@ export function ServicesAi() {
             </ScrollReveal>
             
             <ul className="space-y-4">
-              {features.map((feature, idx) => (
+              {AI_FEATURES.map((feature, idx) => (
                 <ScrollReveal as="li" delay={300 + idx * 100} key={feature} className="flex items-start">
                   <CheckCircle2 className="text-[var(--chart-2)] mr-3 mt-1 shrink-0" aria-hidden="true" />
                   <span className="font-bold text-foreground text-lg">{feature}</span>

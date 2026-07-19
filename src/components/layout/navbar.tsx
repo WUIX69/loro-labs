@@ -4,15 +4,14 @@ import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { useScrollY } from "@/hooks/use-scroll"
+import { useScrollThreshold } from "@/hooks/use-scroll"
 import { MobileNav } from "./mobile-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { NAV_LINKS, LOGO_HEADER_URL } from "@/data/home"
 
 export function Navbar() {
-  const scrollY = useScrollY()
+  const isScrolled = useScrollThreshold(50)
   const pathname = usePathname()
-  const isScrolled = scrollY > 50
 
   return (
     <header
