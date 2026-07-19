@@ -1,7 +1,9 @@
+"use client"
 import Image from "next/image"
 import { Check } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { BRAND_PARROT_URL } from "@/data/home"
+import { useGsapReveal } from "@/hooks/use-gsap-reveal"
 
 const BRAND_FEATURES = [
   {
@@ -17,23 +19,25 @@ const BRAND_FEATURES = [
 ]
 
 export function BrandShowcase() {
+  const textRef = useGsapReveal<HTMLDivElement>({ stagger: 0.15, y: 30 })
+
   return (
     <section id="showcase" className="py-24 px-4 md:px-12 bg-background overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
 
         {/* Text side */}
-        <div className="w-full md:w-1/2">
-          <h2 className="text-5xl md:text-7xl font-black text-foreground leading-tight mb-6">
+        <div ref={textRef} className="w-full md:w-1/2">
+          <h2 data-reveal className="text-5xl md:text-7xl font-black text-foreground leading-tight mb-6">
             Intelligence meets{" "}
             <span className="text-destructive">vibrancy</span>.
           </h2>
-          <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+          <p data-reveal className="text-xl text-muted-foreground mb-8 leading-relaxed">
             Just like our mascot, we thrive in diverse environments, bringing color and sharp
             vision to every project we touch. We don&apos;t just solve problems; we imagine possibilities.
           </p>
           <ul className="space-y-6" aria-label="Key capabilities">
-            {BRAND_FEATURES.map(f => (
-              <li key={f.title} className="flex items-start gap-4">
+            {BRAND_FEATURES.map((f, idx) => (
+              <li data-reveal key={f.title} className="flex items-start gap-4" style={{ animationDelay: `${idx * 150}ms` }}>
                 <div
                   className={cn(
                     "mt-1 w-10 h-10 rounded-full flex-shrink-0 flex items-center justify-center text-white shadow-md",

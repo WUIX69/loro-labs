@@ -41,16 +41,16 @@ export function TestimonialsSection() {
         </header>
       </div>
 
-      {/* Ticker — pause-on-hover via CSS class in loro-tokens.css */}
+      {/* Ticker — pause-on-hover via CSS class in globals.css */}
       <div className="relative w-full overflow-hidden testimonials-ticker">
         <div
           className="flex gap-6 w-max py-4 testimonials-track"
-          style={{ animation: "infinite-scroll 40s linear infinite" }}
+          style={{ animation: "infinite-scroll 30s linear infinite" }}
         >
           {TESTIMONIAL_CARDS.map((t) => (
             <Card
               key={t._key}
-              className="w-[400px] rounded-[32px] shrink-0 border border-border shadow-lg bg-background"
+              className="w-[400px] rounded-[32px] shrink-0 border border-white/10 shadow-xl bg-background/75 backdrop-blur-xl"
             >
               <CardContent className="p-8">
                 <div className="flex items-center gap-3 mb-6">
