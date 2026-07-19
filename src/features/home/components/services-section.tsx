@@ -1,9 +1,12 @@
+"use client"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Code2, BrainCircuit, ArrowRight } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { cn } from "@/lib/utils"
+import { useGsapReveal } from "@/hooks/use-gsap-reveal"
+import { NoiseOverlay } from "@/components/shared/noise-overlay"
 
 const BRAND_COLORS = {
   "destructive": "oklch(0.6356 0.2082 25.3782)",
@@ -21,6 +24,8 @@ const GRID_PATTERN = [
 ] as const
 
 export function ServicesSection() {
+  const listRef = useGsapReveal<HTMLUListElement>({ stagger: 0.15, y: 40 })
+
   return (
     <section id="services" className="py-24 px-4 md:px-12 bg-background">
       <div className="max-w-7xl mx-auto">
@@ -33,14 +38,15 @@ export function ServicesSection() {
           </p>
         </header>
 
-        <ul className="grid grid-cols-1 md:grid-cols-12 gap-6 list-none p-0 m-0">
+        <ul ref={listRef} className="grid grid-cols-1 md:grid-cols-12 gap-6 list-none p-0 m-0">
 
           {/* Web & App Dev — 8/12 */}
-          <li className="md:col-span-8 h-full">
+          <li data-reveal className="md:col-span-8 h-full">
             <article className="h-full" aria-label="Web & App Development service">
             <Card className={cn(
               "group bg-muted rounded-[32px] p-12 relative overflow-hidden min-h-[420px]",
-              "flex flex-col justify-between hover:bg-destructive transition-all duration-500 border-0 h-full"
+              "flex flex-col justify-between hover:bg-destructive transition-all duration-500 border-0 h-full",
+              "hover:[clip-path:polygon(0_0,100%_0,100%_100%,0_100%)] [clip-path:polygon(0_0,100%_0,97%_100%,0_100%)]"
             )}>
               <CardContent className="p-0 flex flex-col h-full justify-between">
                 <div>
@@ -72,9 +78,9 @@ export function ServicesSection() {
           </li>
 
           {/* AI Content — 4/12 */}
-          <li className="md:col-span-4 h-full">
+          <li data-reveal className="md:col-span-4 h-full">
             <article className="h-full" aria-label="AI Content service">
-            <Card className="rounded-[32px] p-12 flex flex-col items-start justify-end min-h-[420px] border-0 group hover:-translate-y-2 transition-all duration-500 shadow-lg h-full" style={{ backgroundColor: 'oklch(0.6758 0.1453 238.462)' }}>
+            <Card className="rounded-[32px] p-12 flex flex-col items-start justify-end min-h-[420px] border-0 group hover:-translate-y-2 transition-all duration-500 shadow-lg h-full hover:[clip-path:polygon(0_0,100%_0,100%_100%,0_100%)] [clip-path:polygon(0_0,100%_0,100%_97%,3%_100%)]" style={{ backgroundColor: 'oklch(0.6758 0.1453 238.462)' }}>
               <CardContent className="p-0 w-full flex flex-col h-full">
                 <div className="mb-auto pb-6">
                   <BrainCircuit className="size-14 text-white" aria-hidden="true" />
@@ -99,9 +105,9 @@ export function ServicesSection() {
           </li>
 
           {/* Consulting — 6/12 */}
-          <li className="md:col-span-6 h-full">
+          <li data-reveal className="md:col-span-6 h-full">
             <article className="h-full" aria-label="Creative Consulting service">
-            <Card className="bg-primary rounded-[32px] p-12 flex flex-col justify-between border-0 group hover:shadow-xl transition-all duration-300 h-full min-h-[300px]">
+            <Card className="bg-primary rounded-[32px] p-12 flex flex-col justify-between border-0 group hover:shadow-xl transition-all duration-300 h-full min-h-[300px] hover:[clip-path:polygon(0_0,100%_0,100%_100%,0_100%)] [clip-path:polygon(0_3%,100%_0,100%_100%,0_100%)]">
               <CardContent className="p-0 flex flex-col h-full justify-between">
                 <div>
                   <Badge className="bg-background text-primary rounded-full px-3 py-1 text-xs font-bold mb-6">
@@ -129,9 +135,10 @@ export function ServicesSection() {
           </li>
 
           {/* Immersive Vision — 6/12 */}
-          <li className="md:col-span-6 h-full">
+          <li data-reveal className="md:col-span-6 h-full">
             <article className="h-full" aria-label="Immersive Vision showcase">
-            <Card className="bg-foreground rounded-[32px] p-12 text-background flex items-center justify-center relative overflow-hidden border-0 group shadow-lg min-h-[300px] h-full">
+            <Card className="bg-foreground rounded-[32px] p-12 text-background flex items-center justify-center relative overflow-hidden border-0 group shadow-lg min-h-[300px] h-full hover:[clip-path:polygon(0_0,100%_0,100%_100%,0_100%)] [clip-path:polygon(0_0,100%_3%,100%_100%,0_100%)]">
+              <NoiseOverlay opacity={0.06} />
               <CardContent className="p-0 relative z-10 text-center">
                 <div className="text-7xl font-black text-secondary mb-2 drop-shadow-lg">100%</div>
                 <div className="text-3xl font-extrabold">

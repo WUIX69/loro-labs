@@ -115,14 +115,14 @@
     "semantic_hash": ""
   },
   "src/features/home/components/brand-showcase.tsx": {
-    "mtime": 1784303853.9345214,
-    "ast_hash": "4f62ee6331011ce3f406a92cda70ecd0",
-    "semantic_hash": "4f62ee6331011ce3f406a92cda70ecd0"
+    "mtime": 1784454538.322942,
+    "ast_hash": "156c5ef43aba9662c92b4e9a7cf7a205",
+    "semantic_hash": ""
   },
   "src/features/home/components/cta-banner.tsx": {
-    "mtime": 1784304458.0845878,
-    "ast_hash": "20f7c42b81d3b07db2e9d6ff098c29e4",
-    "semantic_hash": "20f7c42b81d3b07db2e9d6ff098c29e4"
+    "mtime": 1784454557.0531604,
+    "ast_hash": "2b473a0629d6988a38987e44adb76d2a",
+    "semantic_hash": ""
   },
   "src/features/home/components/hero-carousel.tsx": {
     "mtime": 1784452397.2639785,
@@ -130,9 +130,9 @@
     "semantic_hash": ""
   },
   "src/features/home/components/hero-section.tsx": {
-    "mtime": 1784311659.101798,
-    "ast_hash": "930a3cdf384f925aa0aa2b7c50d74221",
-    "semantic_hash": "930a3cdf384f925aa0aa2b7c50d74221"
+    "mtime": 1784454505.4413297,
+    "ast_hash": "d19cd8e3ff6c1486a64ebc52c35d0ad6",
+    "semantic_hash": ""
   },
   "src/features/home/components/index.ts": {
     "mtime": 1784299369.4832475,
@@ -140,18 +140,18 @@
     "semantic_hash": "1699825667a4a5b78957a820b2459159"
   },
   "src/features/home/components/parallax-background.tsx": {
-    "mtime": 1784452364.8565397,
-    "ast_hash": "53734014812850bb438226f2a5337e8c",
+    "mtime": 1784455394.9966376,
+    "ast_hash": "604354e1683d0ccde8cb1e48df4f1083",
     "semantic_hash": ""
   },
   "src/features/home/components/services-section.tsx": {
-    "mtime": 1784452483.1952097,
-    "ast_hash": "4fd5dcef59580e2dc6b7cdc7a415308e",
+    "mtime": 1784454525.4020288,
+    "ast_hash": "4cdc12cf8851c4c8fe21c6a286617c3c",
     "semantic_hash": ""
   },
   "src/features/home/components/testimonials-section.tsx": {
-    "mtime": 1784452462.1138415,
-    "ast_hash": "ef4901ed13bb2e8274d1a5e4fb8db3b3",
+    "mtime": 1784454545.534368,
+    "ast_hash": "f20d56642732b0f7b999b4c41be4fbf9",
     "semantic_hash": ""
   },
   "src/features/pricing/components/pricing-cta.tsx": {
@@ -232,6 +232,21 @@
   "src/components/shared/scroll-reveal.tsx": {
     "mtime": 1784452330.6630745,
     "ast_hash": "09a5766a0f49c7b81e26ffaa7d52118d",
+    "semantic_hash": ""
+  },
+  "src/components/shared/noise-overlay.tsx": {
+    "mtime": 1784454451.3187027,
+    "ast_hash": "47c2622e913a7195d6aa1c0b7bcf4a5a",
+    "semantic_hash": ""
+  },
+  "src/hooks/use-gsap-reveal.ts": {
+    "mtime": 1784455394.9662104,
+    "ast_hash": "b66a94f170265363e8acdaa8d69f807a",
+    "semantic_hash": ""
+  },
+  "src/hooks/use-magnetic.ts": {
+    "mtime": 1784455043.966065,
+    "ast_hash": "c1e908005af4b45f8734271bbd8f07b5",
     "semantic_hash": ""
   }
 }

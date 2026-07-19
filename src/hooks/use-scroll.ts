@@ -26,11 +26,13 @@ export function useScrollY(): number {
  *   const isScrolled = useScrollThreshold(50)
  */
 export function useScrollThreshold(threshold: number): boolean {
-  const [exceeded, setExceeded] = useState<boolean>(() =>
-    typeof window !== "undefined" ? window.pageYOffset > threshold : false
-  )
+  const [exceeded, setExceeded] = useState<boolean>(false)
 
   useEffect(() => {
+    // Initial check on mount to avoid SSR hydration mismatch
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setExceeded(window.pageYOffset > threshold)
+
     const handleScroll = () => {
       const next = window.pageYOffset > threshold
       // Identity check — skip setState entirely if the boolean hasn't changed

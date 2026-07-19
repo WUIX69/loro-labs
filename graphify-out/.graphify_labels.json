@@ -2,14 +2,8 @@
   "0": "Services and Showcase",
   "1": "UI Card and Avatar",
   "2": "Home Carousel and Navigation",
-  "3": "index.ts",
   "4": "Sheet and Mobile Nav",
   "5": "Pricing",
   "6": "Home Features",
-  "7": "hero-section.tsx",
-  "8": "Theme and Root Layout",
-  "9": "scroll-reveal.tsx",
-  "10": "ScrollReveal",
-  "11": "services-consulting.tsx",
-  "12": "services-web-app.tsx"
+  "8": "Theme and Root Layout"
 }
