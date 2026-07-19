@@ -10,10 +10,13 @@ const BORDER_MAP = {
   "destructive": "border-destructive",
 } as const
 
-export function TestimonialsSection() {
-  // Duplicate cards for seamless infinite loop
-  const cards = [...TESTIMONIALS, ...TESTIMONIALS]
+// Duplicate cards for seamless infinite loop with stable keys
+const TESTIMONIAL_CARDS = [
+  ...TESTIMONIALS.map(t => ({ ...t, _key: `${t.id}-1` })),
+  ...TESTIMONIALS.map(t => ({ ...t, _key: `${t.id}-2` }))
+]
 
+export function TestimonialsSection() {
   return (
     <section className="py-24 overflow-hidden relative">
       {/* Background image */}
@@ -23,6 +26,7 @@ export function TestimonialsSection() {
           alt=""
           fill
           className="object-cover object-center"
+          sizes="100vw"
         />
       </div>
 
@@ -43,9 +47,9 @@ export function TestimonialsSection() {
           className="flex gap-6 w-max py-4 testimonials-track"
           style={{ animation: "infinite-scroll 40s linear infinite" }}
         >
-          {cards.map((t, i) => (
+          {TESTIMONIAL_CARDS.map((t) => (
             <Card
-              key={`${t.id}-${i}`}
+              key={t._key}
               className="w-[400px] rounded-[32px] shrink-0 border border-border shadow-lg bg-background"
             >
               <CardContent className="p-8">

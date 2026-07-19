@@ -1,4 +1,4 @@
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 import { Badge } from "@/components/ui/badge"
 
 export function PricingHero() {

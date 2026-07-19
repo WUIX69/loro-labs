@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 import { Zap, Apple, Smartphone } from "lucide-react"
 
 const FEATHER_IMG =
@@ -18,6 +18,7 @@ export function ShowcaseHero() {
             fill
             className="object-cover opacity-30 dark:opacity-40"
             quality={100}
+            sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background dark:via-background/50 dark:to-background" />
         </div>
@@ -35,14 +36,16 @@ export function ShowcaseHero() {
             designed to fit your unique learning style and professional goals.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="flex items-center gap-3 bg-foreground text-background px-8 py-4 rounded-xl hover:scale-105 transition-transform duration-300 w-full sm:w-auto shadow-xl">
+            <button type="button" className="flex items-center gap-3 bg-foreground text-background px-8 py-4 rounded-xl hover:scale-105 transition-transform duration-300 w-full sm:w-auto shadow-xl">
+              {/* TODO: Replace with <a href="[app-store-url]"> when store URLs confirmed */}
               <Apple className="size-8" aria-hidden="true" />
               <div className="text-left">
                 <p className="text-[10px] uppercase leading-none opacity-70">Download on the</p>
                 <p className="text-lg font-bold leading-tight">App Store</p>
               </div>
             </button>
-            <button className="flex items-center gap-3 bg-foreground text-background px-8 py-4 rounded-xl hover:scale-105 transition-transform duration-300 w-full sm:w-auto shadow-xl">
+            <button type="button" className="flex items-center gap-3 bg-foreground text-background px-8 py-4 rounded-xl hover:scale-105 transition-transform duration-300 w-full sm:w-auto shadow-xl">
+              {/* TODO: Replace with <a href="[play-store-url]"> when store URLs confirmed */}
               <Smartphone className="size-8" aria-hidden="true" />
               <div className="text-left">
                 <p className="text-[10px] uppercase leading-none opacity-70">GET IT ON</p>

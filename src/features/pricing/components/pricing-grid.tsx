@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Globe, Smartphone, Lightbulb, Sparkles, CheckCircle } from "lucide-react"
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 import { Button } from "@/components/ui/button"
 
 const FEATHER_IMG =

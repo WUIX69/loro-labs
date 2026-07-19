@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 import { Button } from "@/components/ui/button"
 import { ContactSheet } from "@/components/layout/contact-sheet"
 

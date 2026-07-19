@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 
 const ARENA_IMG =
   "https://lh3.googleusercontent.com/aida-public/AB6AXuDH-GNal391jkKwDyjYUZdSj5kMx2VRZARjQWkHzMyL7iHZ9QaobXOCw9o5bXiU2PMOEWhmdL3tHyNDVD7QW1G2qtQR4PKqxlB1AfHCe3vEH4UhEv3b_Ee9XXYNIk__Wa-xiG0rSsyFB_vj8Flndun61eGmsX2HypOFKhtebN7POo-AODfLdQalSh2xivWJVhKsaAeVROiWnEM98vLAaDIxWnH7sBovZzXtVFNvEMXtT5yNjMGjcKnH"
@@ -30,6 +30,7 @@ export function ShowcaseGamification() {
               src={ARENA_IMG}
               fill
               className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-110"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-foreground via-foreground/20 to-transparent" />
             <div className="relative z-10">
@@ -54,6 +55,7 @@ export function ShowcaseGamification() {
               src={TROPHY_IMG}
               fill
               className="object-cover opacity-40 transition-transform duration-700 group-hover:scale-110"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
             <div className="relative z-10">

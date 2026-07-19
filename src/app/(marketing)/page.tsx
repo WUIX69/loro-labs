@@ -6,7 +6,7 @@ import {
   TestimonialsSection,
   CtaBanner,
 } from "@/features/home/components"
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 
 export const metadata: Metadata = {
   title: "Loro Labs — Creative Tech Studio",

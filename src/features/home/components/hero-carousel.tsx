@@ -46,7 +46,7 @@ export function HeroCarousel() {
       >
         {CAROUSEL_SLIDES.map((slide, i) => (
           <div
-            key={i}
+            key={slide.id}
             className="relative min-w-full h-full shrink-0"
             aria-roledescription="slide"
             aria-label={`Slide ${i + 1} of ${total}: ${slide.title}`}
@@ -70,6 +70,7 @@ export function HeroCarousel() {
 
       {/* Prev / Next */}
       <button
+        type="button"
         onClick={() => go(current - 1)}
         className="absolute left-6 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/30 backdrop-blur-md text-white transition-all z-30"
         aria-label="Previous slide"
@@ -77,6 +78,7 @@ export function HeroCarousel() {
         <ChevronLeft className="size-5" />
       </button>
       <button
+        type="button"
         onClick={() => go(current + 1)}
         className="absolute right-6 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/30 backdrop-blur-md text-white transition-all z-30"
         aria-label="Next slide"
@@ -86,9 +88,10 @@ export function HeroCarousel() {
 
       {/* Dot navigation */}
       <div className="absolute bottom-8 right-10 flex gap-3 z-30" role="tablist" aria-label="Slide indicators">
-        {CAROUSEL_SLIDES.map((_, i) => (
+        {CAROUSEL_SLIDES.map((slide, i) => (
           <button
-            key={i}
+            key={slide.id}
+            type="button"
             role="tab"
             aria-selected={i === current}
             aria-label={`Go to slide ${i + 1}`}

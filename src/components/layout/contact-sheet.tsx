@@ -43,11 +43,12 @@ export function ContactSheet({ open, onOpenChange }: ContactSheetProps) {
         {/* Contact form — UI only; server action to be wired as follow-up */}
         <form
           className="space-y-4"
-          onSubmit={e => {
-            e.preventDefault()
-            window.location.href = "mailto:hello@lorolabs.studio"
-          }}
+          action="mailto:hello@lorolabs.studio"
+          method="post"
+          encType="text/plain"
         >
+          {/* NOTE: When the server action is wired (noted as follow-up in code),
+              replace action/method/encType with: action={serverContactAction} */}
           <div>
             <label htmlFor="contact-name" className="text-sm font-semibold text-foreground mb-1 block">
               Name

@@ -1,16 +1,16 @@
 import Image from "next/image"
-import { ScrollReveal } from "@/components/ui/scroll-reveal"
+import { ScrollReveal } from "@/components/shared/scroll-reveal"
 import { Code, CheckCircle2 } from "lucide-react"
 
 const WEB_APP_IMG = "https://lh3.googleusercontent.com/aida-public/AB6AXuAoR499gcL7K7lUXToCKaoJfog1tpAWmmm8R08Md0mC7X-Bpx3lNCwxxBlx_P88008tTO8vF6_UflhzDoLcYGHrBHYEMxun9uVniXdep0mOeiFHccv0KtJig_-J-txJyMPCdtwY2P0K-_pbnSlbnvjxT7c3btFaLEGvAKX4gHkuMWQJ-p9An1dusNDH2SmWVcuDAf2C3C5K6_rIuK-SFjn6WlBW-oyIna51igNZ-grXiZsQoEfTvSuB"
 
-export function ServicesWebApp() {
-  const features = [
-    "Custom AI SaaS Solutions",
-    "Responsive Web Applications",
-    "High-Performance Landing Pages",
-  ]
+const WEB_APP_FEATURES = [
+  "Custom AI SaaS Solutions",
+  "Responsive Web Applications",
+  "High-Performance Landing Pages",
+] as const
 
+export function ServicesWebApp() {
   return (
     <section className="py-24 bg-background" id="services">
       <div className="max-w-7xl mx-auto px-4 md:px-12">
@@ -45,7 +45,7 @@ export function ServicesWebApp() {
             </ScrollReveal>
             
             <ul className="space-y-4">
-              {features.map((feature, idx) => (
+              {WEB_APP_FEATURES.map((feature, idx) => (
                 <ScrollReveal as="li" delay={300 + idx * 100} key={feature} className="flex items-start">
                   <CheckCircle2 className="text-destructive mr-3 mt-1 shrink-0" aria-hidden="true" />
                   <span className="font-bold text-foreground text-lg">{feature}</span>
