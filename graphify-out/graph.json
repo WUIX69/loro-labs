@@ -4,94 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "pricing-cta.tsx",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_features_pricing_components_pricing_cta",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricing-cta.tsx"
-    },
-    {
-      "label": "PricingCta()",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "src_features_pricing_components_pricing_cta_pricingcta",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricingcta()"
-    },
-    {
-      "label": "pricing-grid.tsx",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "src_features_pricing_components_pricing_grid",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricing-grid.tsx"
-    },
-    {
-      "label": "MONTHLY",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "src_features_pricing_components_pricing_grid_monthly",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "monthly"
-    },
-    {
-      "label": "ANNUAL",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "src_features_pricing_components_pricing_grid_annual",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "annual"
-    },
-    {
-      "label": "TAGS_WEB",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "src_features_pricing_components_pricing_grid_tags_web",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "tags_web"
-    },
-    {
-      "label": "TAGS_CONSULTING",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "src_features_pricing_components_pricing_grid_tags_consulting",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "tags_consulting"
-    },
-    {
-      "label": "PricingGrid()",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L29",
-      "_origin": "ast",
-      "id": "src_features_pricing_components_pricing_grid_pricinggrid",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricinggrid()"
-    },
-    {
       "label": "pricing-hero.tsx",
       "file_type": "code",
       "source_file": "src/features/pricing/components/pricing-hero.tsx",
@@ -112,6 +24,226 @@
       "community": 5,
       "community_name": "Pricing",
       "norm_label": "pricinghero()"
+    },
+    {
+      "label": "services-ai.tsx",
+      "file_type": "code",
+      "source_file": "src/features/services/components/services-ai.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_features_services_components_services_ai",
+      "community": 0,
+      "community_name": "Services and Showcase",
+      "norm_label": "services-ai.tsx"
+    },
+    {
+      "label": "AI_FEATURES",
+      "file_type": "code",
+      "source_file": "src/features/services/components/services-ai.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_features_services_components_services_ai_ai_features",
+      "community": 0,
+      "community_name": "Services and Showcase",
+      "norm_label": "ai_features"
+    },
+    {
+      "label": "ServicesAi()",
+      "file_type": "code",
+      "source_file": "src/features/services/components/services-ai.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_features_services_components_services_ai_servicesai",
+      "community": 0,
+      "community_name": "Services and Showcase",
+      "norm_label": "servicesai()"
+    },
+    {
+      "label": "services-consulting.tsx",
+      "file_type": "code",
+      "source_file": "src/features/services/components/services-consulting.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_features_services_components_services_consulting",
+      "community": 0,
+      "community_name": "Services and Showcase",
+      "norm_label": "services-consulting.tsx"
+    },
+    {
+      "label": "CONSULTING_FEATURES",
+      "file_type": "code",
+      "source_file": "src/features/services/components/services-consulting.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_features_services_components_services_consulting_consulting_features",
+      "community": 0,
+      "community_name": "Services and Showcase",
+      "norm_label": "consulting_features"
+    },
+    {
+      "label": "ServicesConsulting()",
+      "file_type": "code",
+      "source_file": "src/features/services/components/services-consulting.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_features_services_components_services_consulting_servicesconsulting",
+      "community": 0,
+      "community_name": "Services and Showcase",
+      "norm_label": "servicesconsulting()"
+    },
+    {
+      "label": "services-web-app.tsx",
+      "file_type": "code",
+      "source_file": "src/features/services/components/services-web-app.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_features_services_components_services_web_app",
+      "community": 0,
+      "community_name": "Services and Showcase",
+      "norm_label": "services-web-app.tsx"
+    },
+    {
+      "label": "WEB_APP_FEATURES",
+      "file_type": "code",
+      "source_file": "src/features/services/components/services-web-app.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_features_services_components_services_web_app_web_app_features",
+      "community": 0,
+      "community_name": "Services and Showcase",
+      "norm_label": "web_app_features"
+    },
+    {
+      "label": "ServicesWebApp()",
+      "file_type": "code",
+      "source_file": "src/features/services/components/services-web-app.tsx",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "src_features_services_components_services_web_app_serviceswebapp",
+      "community": 0,
+      "community_name": "Services and Showcase",
+      "norm_label": "serviceswebapp()"
+    },
+    {
+      "label": "use-scroll.ts",
+      "file_type": "code",
+      "source_file": "src/hooks/use-scroll.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_hooks_use_scroll",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
+      "norm_label": "use-scroll.ts"
+    },
+    {
+      "label": "useScrollY()",
+      "file_type": "code",
+      "source_file": "src/hooks/use-scroll.ts",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "src_hooks_use_scroll_usescrolly",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
+      "norm_label": "usescrolly()"
+    },
+    {
+      "label": "useScrollThreshold()",
+      "file_type": "code",
+      "source_file": "src/hooks/use-scroll.ts",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "src_hooks_use_scroll_usescrollthreshold",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
+      "norm_label": "usescrollthreshold()"
+    },
+    {
+      "label": "pricing-cta.tsx",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-cta.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricing-cta.tsx",
+      "id": "src_features_pricing_components_pricing_cta"
+    },
+    {
+      "label": "PricingCta()",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-cta.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricingcta()",
+      "id": "src_features_pricing_components_pricing_cta_pricingcta"
+    },
+    {
+      "label": "pricing-grid.tsx",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricing-grid.tsx",
+      "id": "src_features_pricing_components_pricing_grid"
+    },
+    {
+      "label": "MONTHLY",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "monthly",
+      "id": "src_features_pricing_components_pricing_grid_monthly"
+    },
+    {
+      "label": "ANNUAL",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "annual",
+      "id": "src_features_pricing_components_pricing_grid_annual"
+    },
+    {
+      "label": "TAGS_WEB",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "tags_web",
+      "id": "src_features_pricing_components_pricing_grid_tags_web"
+    },
+    {
+      "label": "TAGS_CONSULTING",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "tags_consulting",
+      "id": "src_features_pricing_components_pricing_grid_tags_consulting"
+    },
+    {
+      "label": "PricingGrid()",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L29",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricinggrid()",
+      "id": "src_features_pricing_components_pricing_grid_pricinggrid"
     },
     {
       "label": "noise-overlay.tsx",
@@ -1478,72 +1610,6 @@
       "id": "src_features_services_components_index"
     },
     {
-      "label": "services-ai.tsx",
-      "file_type": "code",
-      "source_file": "src/features/services/components/services-ai.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "Services and Showcase",
-      "norm_label": "services-ai.tsx",
-      "id": "src_features_services_components_services_ai"
-    },
-    {
-      "label": "AI_FEATURES",
-      "file_type": "code",
-      "source_file": "src/features/services/components/services-ai.tsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "Services and Showcase",
-      "norm_label": "ai_features",
-      "id": "src_features_services_components_services_ai_ai_features"
-    },
-    {
-      "label": "ServicesAi()",
-      "file_type": "code",
-      "source_file": "src/features/services/components/services-ai.tsx",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "Services and Showcase",
-      "norm_label": "servicesai()",
-      "id": "src_features_services_components_services_ai_servicesai"
-    },
-    {
-      "label": "services-consulting.tsx",
-      "file_type": "code",
-      "source_file": "src/features/services/components/services-consulting.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "Services and Showcase",
-      "norm_label": "services-consulting.tsx",
-      "id": "src_features_services_components_services_consulting"
-    },
-    {
-      "label": "CONSULTING_FEATURES",
-      "file_type": "code",
-      "source_file": "src/features/services/components/services-consulting.tsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "Services and Showcase",
-      "norm_label": "consulting_features",
-      "id": "src_features_services_components_services_consulting_consulting_features"
-    },
-    {
-      "label": "ServicesConsulting()",
-      "file_type": "code",
-      "source_file": "src/features/services/components/services-consulting.tsx",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "Services and Showcase",
-      "norm_label": "servicesconsulting()",
-      "id": "src_features_services_components_services_consulting_servicesconsulting"
-    },
-    {
       "label": "services-cta.tsx",
       "file_type": "code",
       "source_file": "src/features/services/components/services-cta.tsx",
@@ -1586,39 +1652,6 @@
       "community_name": "Services and Showcase",
       "norm_label": "serviceshero()",
       "id": "src_features_services_components_services_hero_serviceshero"
-    },
-    {
-      "label": "services-web-app.tsx",
-      "file_type": "code",
-      "source_file": "src/features/services/components/services-web-app.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "Services and Showcase",
-      "norm_label": "services-web-app.tsx",
-      "id": "src_features_services_components_services_web_app"
-    },
-    {
-      "label": "WEB_APP_FEATURES",
-      "file_type": "code",
-      "source_file": "src/features/services/components/services-web-app.tsx",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "Services and Showcase",
-      "norm_label": "web_app_features",
-      "id": "src_features_services_components_services_web_app_web_app_features"
-    },
-    {
-      "label": "ServicesWebApp()",
-      "file_type": "code",
-      "source_file": "src/features/services/components/services-web-app.tsx",
-      "source_location": "L13",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "Services and Showcase",
-      "norm_label": "serviceswebapp()",
-      "id": "src_features_services_components_services_web_app_serviceswebapp"
     },
     {
       "label": "index.ts",
@@ -1720,39 +1753,6 @@
       "id": "src_features_showcase_components_showcase_intelligence_showcaseintelligence"
     },
     {
-      "label": "use-scroll.ts",
-      "file_type": "code",
-      "source_file": "src/hooks/use-scroll.ts",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Sheet and Mobile Nav",
-      "norm_label": "use-scroll.ts",
-      "id": "src_hooks_use_scroll"
-    },
-    {
-      "label": "useScrollY()",
-      "file_type": "code",
-      "source_file": "src/hooks/use-scroll.ts",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Sheet and Mobile Nav",
-      "norm_label": "usescrolly()",
-      "id": "src_hooks_use_scroll_usescrolly"
-    },
-    {
-      "label": "useScrollThreshold()",
-      "file_type": "code",
-      "source_file": "src/hooks/use-scroll.ts",
-      "source_location": "L28",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Sheet and Mobile Nav",
-      "norm_label": "usescrollthreshold()",
-      "id": "src_hooks_use_scroll_usescrollthreshold"
-    },
-    {
       "label": "utils.ts",
       "file_type": "code",
       "source_file": "src/lib/utils.ts",
@@ -1776,120 +1776,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_cta"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_features_pricing_components_pricing_cta",
-      "target": "src_features_pricing_components_pricing_cta_pricingcta",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_cta_pricingcta"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_grid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L19",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_features_pricing_components_pricing_grid",
-      "target": "src_features_pricing_components_pricing_grid_annual",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_features_pricing_components_pricing_grid",
-      "target": "src_features_pricing_components_pricing_grid_monthly",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L29",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_features_pricing_components_pricing_grid",
-      "target": "src_features_pricing_components_pricing_grid_pricinggrid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L27",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_features_pricing_components_pricing_grid",
-      "target": "src_features_pricing_components_pricing_grid_tags_consulting",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L26",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_features_pricing_components_pricing_grid",
-      "target": "src_features_pricing_components_pricing_grid_tags_web",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_grid_pricinggrid"
-    },
     {
       "relation": "imports_from",
       "context": "import",
@@ -1924,6 +1810,316 @@
       "confidence_score": 1.0,
       "source": "src_app_marketing_pricing_page",
       "target": "src_features_pricing_components_pricing_hero_pricinghero"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/services/components/index.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_features_services_components_index",
+      "target": "src_features_services_components_services_ai"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/services/components/services-ai.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_services_components_services_ai",
+      "target": "src_features_services_components_services_ai_ai_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/services/components/services-ai.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_services_components_services_ai",
+      "target": "src_features_services_components_services_ai_servicesai",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/services/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_services_page",
+      "target": "src_features_services_components_services_ai_servicesai"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/services/components/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_features_services_components_index",
+      "target": "src_features_services_components_services_consulting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/services/components/services-consulting.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_services_components_services_consulting",
+      "target": "src_features_services_components_services_consulting_consulting_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/services/components/services-consulting.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_services_components_services_consulting",
+      "target": "src_features_services_components_services_consulting_servicesconsulting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/services/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_services_page",
+      "target": "src_features_services_components_services_consulting_servicesconsulting"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/services/components/index.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_features_services_components_index",
+      "target": "src_features_services_components_services_web_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/services/components/services-web-app.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_services_components_services_web_app",
+      "target": "src_features_services_components_services_web_app_serviceswebapp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/services/components/services-web-app.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_services_components_services_web_app",
+      "target": "src_features_services_components_services_web_app_web_app_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/services/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_services_page",
+      "target": "src_features_services_components_services_web_app_serviceswebapp"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/navbar.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_components_layout_navbar",
+      "target": "src_hooks_use_scroll"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks/use-scroll.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_hooks_use_scroll",
+      "target": "src_hooks_use_scroll_usescrollthreshold",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks/use-scroll.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_hooks_use_scroll",
+      "target": "src_hooks_use_scroll_usescrolly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/navbar.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_components_layout_navbar",
+      "target": "src_hooks_use_scroll_usescrollthreshold"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/layout/navbar.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_components_layout_navbar_navbar",
+      "target": "src_hooks_use_scroll_usescrollthreshold"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_cta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-cta.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_features_pricing_components_pricing_cta",
+      "target": "src_features_pricing_components_pricing_cta_pricingcta"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_cta_pricingcta"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_grid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_annual"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_monthly"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_pricinggrid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_tags_consulting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_tags_web"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_grid_pricinggrid"
     },
     {
       "relation": "contains",
@@ -2657,30 +2853,6 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "src_app_marketing_services_page",
-      "target": "src_features_services_components_services_ai_servicesai"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/services/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_services_page",
-      "target": "src_features_services_components_services_consulting_servicesconsulting"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/services/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_services_page",
       "target": "src_features_services_components_services_cta_servicescta"
     },
     {
@@ -2694,18 +2866,6 @@
       "confidence_score": 1.0,
       "source": "src_app_marketing_services_page",
       "target": "src_features_services_components_services_hero_serviceshero"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/services/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_services_page",
-      "target": "src_features_services_components_services_web_app_serviceswebapp"
     },
     {
       "relation": "contains",
@@ -3537,30 +3697,6 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/layout/navbar.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_components_layout_navbar",
-      "target": "src_hooks_use_scroll"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/layout/navbar.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_components_layout_navbar",
-      "target": "src_hooks_use_scroll_usescrollthreshold"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/layout/navbar.tsx",
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
@@ -3579,18 +3715,6 @@
       "confidence_score": 1.0,
       "source": "src_components_layout_navbar",
       "target": "src_lib_utils_cn"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/layout/navbar.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "src_components_layout_navbar_navbar",
-      "target": "src_hooks_use_scroll_usescrollthreshold"
     },
     {
       "relation": "calls",
@@ -3654,30 +3778,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-ai.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_ai",
-      "target": "src_components_shared_scroll_reveal"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-consulting.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_consulting",
-      "target": "src_components_shared_scroll_reveal"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/features/services/components/services-cta.tsx",
       "source_location": "L1",
       "weight": 1.0,
@@ -3696,18 +3796,6 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "src_features_services_components_services_hero",
-      "target": "src_components_shared_scroll_reveal"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-web-app.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_web_app",
       "target": "src_components_shared_scroll_reveal"
     },
     {
@@ -3774,30 +3862,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-ai.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_ai",
-      "target": "src_components_shared_scroll_reveal_scrollreveal"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-consulting.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_consulting",
-      "target": "src_components_shared_scroll_reveal_scrollreveal"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/features/services/components/services-cta.tsx",
       "source_location": "L1",
       "weight": 1.0,
@@ -3816,18 +3880,6 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "src_features_services_components_services_hero",
-      "target": "src_components_shared_scroll_reveal_scrollreveal"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-web-app.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_web_app",
       "target": "src_components_shared_scroll_reveal_scrollreveal"
     },
     {
@@ -5153,30 +5205,6 @@
       "context": "export",
       "confidence": "EXTRACTED",
       "source_file": "src/features/services/components/index.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_index",
-      "target": "src_features_services_components_services_ai"
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/index.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_index",
-      "target": "src_features_services_components_services_consulting"
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/index.ts",
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
@@ -5195,62 +5223,6 @@
       "confidence_score": 1.0,
       "source": "src_features_services_components_index",
       "target": "src_features_services_components_services_hero"
-    },
-    {
-      "relation": "re_exports",
-      "context": "export",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/index.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_index",
-      "target": "src_features_services_components_services_web_app"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-ai.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_ai",
-      "target": "src_features_services_components_services_ai_ai_features"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-ai.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_ai",
-      "target": "src_features_services_components_services_ai_servicesai"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-consulting.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_consulting",
-      "target": "src_features_services_components_services_consulting_consulting_features"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-consulting.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_consulting",
-      "target": "src_features_services_components_services_consulting_servicesconsulting"
     },
     {
       "relation": "contains",
@@ -5273,28 +5245,6 @@
       "confidence_score": 1.0,
       "source": "src_features_services_components_services_hero",
       "target": "src_features_services_components_services_hero_serviceshero"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-web-app.tsx",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_web_app",
-      "target": "src_features_services_components_services_web_app_serviceswebapp"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/services/components/services-web-app.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_services_components_services_web_app",
-      "target": "src_features_services_components_services_web_app_web_app_features"
     },
     {
       "relation": "re_exports",
@@ -5439,28 +5389,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/hooks/use-scroll.ts",
-      "source_location": "L28",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_hooks_use_scroll",
-      "target": "src_hooks_use_scroll_usescrollthreshold"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/hooks/use-scroll.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_hooks_use_scroll",
-      "target": "src_hooks_use_scroll_usescrolly"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "src/lib/utils.ts",
       "source_location": "L4",
       "weight": 1.0,
@@ -5471,5 +5399,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2134a77a58613a46831e198a7c5fabe8c64b91fc"
+  "built_at_commit": "2749c1959e49498738c328b4b56cd9ad482a7f76"
 }

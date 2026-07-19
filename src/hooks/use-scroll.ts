@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
  * Returns the current window.pageYOffset, updating on every scroll frame.
  * Passive listener — does not block scrolling.
  */
-export function useScrollY(): number {
+function useScrollY(): number {
   const [scrollY, setScrollY] = useState(0)
 
   useEffect(() => {

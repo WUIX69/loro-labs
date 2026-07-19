@@ -165,8 +165,8 @@
     "semantic_hash": ""
   },
   "src/features/pricing/components/pricing-hero.tsx": {
-    "mtime": 1784460160.1559148,
-    "ast_hash": "a41e8eaf59c36bcb627e42dbb67860cf",
+    "mtime": 1784461892.2068572,
+    "ast_hash": "97f56a7ecc3a89789dcae4d2de6c669c",
     "semantic_hash": ""
   },
   "src/features/services/components/index.ts": {
@@ -175,13 +175,13 @@
     "semantic_hash": "39ff2b12bb901b66b3b14e4116d72fc9"
   },
   "src/features/services/components/services-ai.tsx": {
-    "mtime": 1784456250.1014562,
-    "ast_hash": "8891e4662537c31210884aae519d1aad",
+    "mtime": 1784461878.18201,
+    "ast_hash": "b437ec2316cc1d5eab0bb773731a8c1d",
     "semantic_hash": ""
   },
   "src/features/services/components/services-consulting.tsx": {
-    "mtime": 1784456250.1652572,
-    "ast_hash": "0373c55a8f38ae8fba9baceab9338aa1",
+    "mtime": 1784461880.0296834,
+    "ast_hash": "8bb1a090138668e95ce96981832c451d",
     "semantic_hash": ""
   },
   "src/features/services/components/services-cta.tsx": {
@@ -195,8 +195,8 @@
     "semantic_hash": ""
   },
   "src/features/services/components/services-web-app.tsx": {
-    "mtime": 1784456249.3777072,
-    "ast_hash": "09f4309e86b122e08134906d4def3165",
+    "mtime": 1784461879.138168,
+    "ast_hash": "9c8995dfd66adb4784d72d86b659a264",
     "semantic_hash": ""
   },
   "src/features/showcase/components/index.ts": {
@@ -225,8 +225,8 @@
     "semantic_hash": ""
   },
   "src/hooks/use-scroll.ts": {
-    "mtime": 1784459117.0258427,
-    "ast_hash": "64b22941b65e504e7a9ff500a58c9251",
+    "mtime": 1784462247.9856017,
+    "ast_hash": "5e0fa7597a5f29d1b6a1d659054cff6e",
     "semantic_hash": ""
   },
   "src/components/shared/scroll-reveal.tsx": {

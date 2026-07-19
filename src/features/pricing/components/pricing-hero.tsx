@@ -10,12 +10,16 @@ export function PricingHero() {
   return (
     <section
       ref={containerRef}
-      className="relative overflow-hidden px-4 md:px-12 max-w-7xl mx-auto mb-24 pt-24"
+      className="relative overflow-hidden min-h-[60vh] flex items-center bg-background px-4 md:px-12 max-w-7xl mx-auto mb-24"
     >
       <NoiseOverlay opacity={0.15} />
 
       <div
         className="absolute top-20 -left-20 w-96 h-96 bg-destructive rounded-full blur-[120px] opacity-20 animate-[blob-float_23s_ease-in-out_infinite]"
+        aria-hidden="true"
+      />
+      <div
+        className="absolute bottom-40 right-10 w-[30rem] h-[30rem] bg-chart-4 rounded-full blur-[120px] opacity-10 animate-[blob-float_19s_ease-in-out_infinite_reverse]"
         aria-hidden="true"
       />
 

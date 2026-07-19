@@ -45,7 +45,7 @@ export function ServicesConsulting() {
           </div>
           
           <div data-reveal className="w-full">
-            <div className="rounded-[32px] overflow-hidden shadow-2xl relative group ring-1 ring-border/50 transition-all duration-700 hover:shadow-[var(--chart-4)]/20 hover:shadow-[0_0_60px_-15px]">
+            <div className="rounded-[32px] overflow-hidden shadow-2xl relative group ring-1 ring-border/50 transition-shadow duration-700 hover:shadow-[var(--chart-4)]/20 hover:shadow-[0_0_60px_-15px]">
               <div className="w-full h-[500px] relative">
                 <Image 
                   src={CONSULTING_IMG}
