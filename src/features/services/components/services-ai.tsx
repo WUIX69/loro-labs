@@ -23,7 +23,7 @@ export function ServicesAi() {
       <div ref={containerRef} className="max-w-7xl mx-auto px-4 md:px-12 relative z-10">
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
           
-          <div data-reveal className="mb-12 lg:mb-0 rounded-[32px] overflow-hidden shadow-2xl relative group ring-1 ring-border/50 transition-all duration-700 hover:shadow-[var(--chart-2)]/20 hover:shadow-[0_0_60px_-15px]">
+          <div data-reveal className="mb-12 lg:mb-0 rounded-[32px] overflow-hidden shadow-2xl relative group ring-1 ring-border/50 transition-shadow duration-700 hover:shadow-[var(--chart-2)]/20 hover:shadow-[0_0_60px_-15px]">
             <div className="w-full h-[500px] relative">
               <Image 
                 src={AI_IMG}
