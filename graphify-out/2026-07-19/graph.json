@@ -4,15 +4,125 @@
   "graph": {},
   "nodes": [
     {
+      "label": "pricing-cta.tsx",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-cta.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_cta",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricing-cta.tsx"
+    },
+    {
+      "label": "PricingCta()",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-cta.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_cta_pricingcta",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricingcta()"
+    },
+    {
+      "label": "pricing-grid.tsx",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_grid",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricing-grid.tsx"
+    },
+    {
+      "label": "MONTHLY",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_grid_monthly",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "monthly"
+    },
+    {
+      "label": "ANNUAL",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_grid_annual",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "annual"
+    },
+    {
+      "label": "TAGS_WEB",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_grid_tags_web",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "tags_web"
+    },
+    {
+      "label": "TAGS_CONSULTING",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_grid_tags_consulting",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "tags_consulting"
+    },
+    {
+      "label": "PricingGrid()",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_grid_pricinggrid",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricinggrid()"
+    },
+    {
+      "label": "pricing-hero.tsx",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-hero.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_hero",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricing-hero.tsx"
+    },
+    {
+      "label": "PricingHero()",
+      "file_type": "code",
+      "source_file": "src/features/pricing/components/pricing-hero.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_features_pricing_components_pricing_hero_pricinghero",
+      "community": 5,
+      "community_name": "Pricing",
+      "norm_label": "pricinghero()"
+    },
+    {
       "label": "noise-overlay.tsx",
       "file_type": "code",
       "source_file": "src/components/shared/noise-overlay.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_components_shared_noise_overlay",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "noise-overlay.tsx"
+      "norm_label": "noise-overlay.tsx",
+      "id": "src_components_shared_noise_overlay"
     },
     {
       "label": "NoiseOverlay()",
@@ -20,10 +130,10 @@
       "source_file": "src/components/shared/noise-overlay.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_components_shared_noise_overlay_noiseoverlay",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "noiseoverlay()"
+      "norm_label": "noiseoverlay()",
+      "id": "src_components_shared_noise_overlay_noiseoverlay"
     },
     {
       "label": "brand-showcase.tsx",
@@ -31,10 +141,10 @@
       "source_file": "src/features/home/components/brand-showcase.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_features_home_components_brand_showcase",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "brand-showcase.tsx"
+      "norm_label": "brand-showcase.tsx",
+      "id": "src_features_home_components_brand_showcase"
     },
     {
       "label": "BRAND_FEATURES",
@@ -42,10 +152,10 @@
       "source_file": "src/features/home/components/brand-showcase.tsx",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "src_features_home_components_brand_showcase_brand_features",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "brand_features"
+      "norm_label": "brand_features",
+      "id": "src_features_home_components_brand_showcase_brand_features"
     },
     {
       "label": "BrandShowcase()",
@@ -53,10 +163,10 @@
       "source_file": "src/features/home/components/brand-showcase.tsx",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "src_features_home_components_brand_showcase_brandshowcase",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "brandshowcase()"
+      "norm_label": "brandshowcase()",
+      "id": "src_features_home_components_brand_showcase_brandshowcase"
     },
     {
       "label": "cta-banner.tsx",
@@ -64,10 +174,10 @@
       "source_file": "src/features/home/components/cta-banner.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_features_home_components_cta_banner",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "cta-banner.tsx"
+      "norm_label": "cta-banner.tsx",
+      "id": "src_features_home_components_cta_banner"
     },
     {
       "label": "CtaBanner()",
@@ -75,10 +185,10 @@
       "source_file": "src/features/home/components/cta-banner.tsx",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "src_features_home_components_cta_banner_ctabanner",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "ctabanner()"
+      "norm_label": "ctabanner()",
+      "id": "src_features_home_components_cta_banner_ctabanner"
     },
     {
       "label": "hero-section.tsx",
@@ -86,10 +196,10 @@
       "source_file": "src/features/home/components/hero-section.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_features_home_components_hero_section",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "hero-section.tsx"
+      "norm_label": "hero-section.tsx",
+      "id": "src_features_home_components_hero_section"
     },
     {
       "label": "HeroSection()",
@@ -97,10 +207,10 @@
       "source_file": "src/features/home/components/hero-section.tsx",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "src_features_home_components_hero_section_herosection",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "herosection()"
+      "norm_label": "herosection()",
+      "id": "src_features_home_components_hero_section_herosection"
     },
     {
       "label": "parallax-background.tsx",
@@ -108,10 +218,10 @@
       "source_file": "src/features/home/components/parallax-background.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_features_home_components_parallax_background",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "parallax-background.tsx"
+      "norm_label": "parallax-background.tsx",
+      "id": "src_features_home_components_parallax_background"
     },
     {
       "label": "ParallaxBackground()",
@@ -119,10 +229,10 @@
       "source_file": "src/features/home/components/parallax-background.tsx",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "src_features_home_components_parallax_background_parallaxbackground",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "parallaxbackground()"
+      "norm_label": "parallaxbackground()",
+      "id": "src_features_home_components_parallax_background_parallaxbackground"
     },
     {
       "label": "services-section.tsx",
@@ -130,10 +240,10 @@
       "source_file": "src/features/home/components/services-section.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_features_home_components_services_section",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "services-section.tsx"
+      "norm_label": "services-section.tsx",
+      "id": "src_features_home_components_services_section"
     },
     {
       "label": "BRAND_COLORS",
@@ -141,10 +251,10 @@
       "source_file": "src/features/home/components/services-section.tsx",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "src_features_home_components_services_section_brand_colors",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "brand_colors"
+      "norm_label": "brand_colors",
+      "id": "src_features_home_components_services_section_brand_colors"
     },
     {
       "label": "GRID_PATTERN",
@@ -152,10 +262,10 @@
       "source_file": "src/features/home/components/services-section.tsx",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "src_features_home_components_services_section_grid_pattern",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "grid_pattern"
+      "norm_label": "grid_pattern",
+      "id": "src_features_home_components_services_section_grid_pattern"
     },
     {
       "label": "ServicesSection()",
@@ -163,10 +273,10 @@
       "source_file": "src/features/home/components/services-section.tsx",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "src_features_home_components_services_section_servicessection",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "servicessection()"
+      "norm_label": "servicessection()",
+      "id": "src_features_home_components_services_section_servicessection"
     },
     {
       "label": "testimonials-section.tsx",
@@ -174,10 +284,10 @@
       "source_file": "src/features/home/components/testimonials-section.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_features_home_components_testimonials_section",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "testimonials-section.tsx"
+      "norm_label": "testimonials-section.tsx",
+      "id": "src_features_home_components_testimonials_section"
     },
     {
       "label": "BORDER_MAP",
@@ -185,10 +295,10 @@
       "source_file": "src/features/home/components/testimonials-section.tsx",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "src_features_home_components_testimonials_section_border_map",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "border_map"
+      "norm_label": "border_map",
+      "id": "src_features_home_components_testimonials_section_border_map"
     },
     {
       "label": "TESTIMONIAL_CARDS",
@@ -196,10 +306,10 @@
       "source_file": "src/features/home/components/testimonials-section.tsx",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "src_features_home_components_testimonials_section_testimonial_cards",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "testimonial_cards"
+      "norm_label": "testimonial_cards",
+      "id": "src_features_home_components_testimonials_section_testimonial_cards"
     },
     {
       "label": "TestimonialsSection()",
@@ -207,10 +317,10 @@
       "source_file": "src/features/home/components/testimonials-section.tsx",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "src_features_home_components_testimonials_section_testimonialssection",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "testimonialssection()"
+      "norm_label": "testimonialssection()",
+      "id": "src_features_home_components_testimonials_section_testimonialssection"
     },
     {
       "label": "use-gsap-reveal.ts",
@@ -218,10 +328,10 @@
       "source_file": "src/hooks/use-gsap-reveal.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_hooks_use_gsap_reveal",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "use-gsap-reveal.ts"
+      "norm_label": "use-gsap-reveal.ts",
+      "id": "src_hooks_use_gsap_reveal"
     },
     {
       "label": "Options",
@@ -229,10 +339,10 @@
       "source_file": "src/hooks/use-gsap-reveal.ts",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "src_hooks_use_gsap_reveal_options",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "options"
+      "norm_label": "options",
+      "id": "src_hooks_use_gsap_reveal_options"
     },
     {
       "label": "useGsapReveal()",
@@ -240,10 +350,10 @@
       "source_file": "src/hooks/use-gsap-reveal.ts",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "src_hooks_use_gsap_reveal_usegsapreveal",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "usegsapreveal()"
+      "norm_label": "usegsapreveal()",
+      "id": "src_hooks_use_gsap_reveal_usegsapreveal"
     },
     {
       "label": "use-magnetic.ts",
@@ -251,10 +361,10 @@
       "source_file": "src/hooks/use-magnetic.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_hooks_use_magnetic",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "use-magnetic.ts"
+      "norm_label": "use-magnetic.ts",
+      "id": "src_hooks_use_magnetic"
     },
     {
       "label": "useMagnetic()",
@@ -262,10 +372,10 @@
       "source_file": "src/hooks/use-magnetic.ts",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "src_hooks_use_magnetic_usemagnetic",
       "community": 6,
       "community_name": "Home Features",
-      "norm_label": "usemagnetic()"
+      "norm_label": "usemagnetic()",
+      "id": "src_hooks_use_magnetic_usemagnetic"
     },
     {
       "label": "layout.tsx",
@@ -526,8 +636,8 @@
       "source_file": "src/components/layout/footer.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "footer.tsx",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "footer.tsx",
       "id": "src_components_layout_footer"
     },
@@ -537,8 +647,8 @@
       "source_file": "src/components/layout/footer.tsx",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "footer.tsx",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "studio_links",
       "id": "src_components_layout_footer_studio_links"
     },
@@ -548,8 +658,8 @@
       "source_file": "src/components/layout/footer.tsx",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "footer.tsx",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "service_links",
       "id": "src_components_layout_footer_service_links"
     },
@@ -559,8 +669,8 @@
       "source_file": "src/components/layout/footer.tsx",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "footer.tsx",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "social_icons",
       "id": "src_components_layout_footer_social_icons"
     },
@@ -614,8 +724,8 @@
       "source_file": "src/components/layout/navbar.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "navbar.tsx",
       "id": "src_components_layout_navbar"
     },
@@ -713,8 +823,8 @@
       "source_file": "src/components/theme-toggle.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "theme-toggle.tsx",
       "id": "src_components_theme_toggle"
     },
@@ -724,8 +834,8 @@
       "source_file": "src/components/theme-toggle.tsx",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "themetoggle()",
       "id": "src_components_theme_toggle_themetoggle"
     },
@@ -812,8 +922,8 @@
       "source_file": "src/components/ui/badge.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 1,
+      "community_name": "UI Card and Avatar",
       "norm_label": "badge.tsx",
       "id": "src_components_ui_badge"
     },
@@ -823,8 +933,8 @@
       "source_file": "src/components/ui/badge.tsx",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 1,
+      "community_name": "UI Card and Avatar",
       "norm_label": "badgevariants",
       "id": "src_components_ui_badge_badgevariants"
     },
@@ -834,8 +944,8 @@
       "source_file": "src/components/ui/badge.tsx",
       "source_location": "L30",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 1,
+      "community_name": "UI Card and Avatar",
       "norm_label": "badge()",
       "id": "src_components_ui_badge_badge"
     },
@@ -845,8 +955,8 @@
       "source_file": "src/components/ui/button.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "button.tsx",
       "id": "src_components_ui_button"
     },
@@ -856,8 +966,8 @@
       "source_file": "src/components/ui/button.tsx",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "buttonvariants",
       "id": "src_components_ui_button_buttonvariants"
     },
@@ -867,8 +977,8 @@
       "source_file": "src/components/ui/button.tsx",
       "source_location": "L41",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "button()",
       "id": "src_components_ui_button_button"
     },
@@ -1087,8 +1197,8 @@
       "source_file": "src/components/ui/input.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "footer.tsx",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "input.tsx",
       "id": "src_components_ui_input"
     },
@@ -1098,8 +1208,8 @@
       "source_file": "src/components/ui/input.tsx",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "footer.tsx",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "input()",
       "id": "src_components_ui_input_input"
     },
@@ -1109,8 +1219,8 @@
       "source_file": "src/components/ui/separator.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "footer.tsx",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "separator.tsx",
       "id": "src_components_ui_separator"
     },
@@ -1120,8 +1230,8 @@
       "source_file": "src/components/ui/separator.tsx",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 3,
-      "community_name": "footer.tsx",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "separator()",
       "id": "src_components_ui_separator_separator"
     },
@@ -1355,72 +1465,6 @@
       "community_name": "Home Features",
       "norm_label": "index.ts",
       "id": "src_features_home_components_index"
-    },
-    {
-      "label": "pricing-cta.tsx",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricing-cta.tsx",
-      "id": "src_features_pricing_components_pricing_cta"
-    },
-    {
-      "label": "PricingCta()",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L8",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricingcta()",
-      "id": "src_features_pricing_components_pricing_cta_pricingcta"
-    },
-    {
-      "label": "pricing-grid.tsx",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricing-grid.tsx",
-      "id": "src_features_pricing_components_pricing_grid"
-    },
-    {
-      "label": "PricingGrid()",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L9",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricinggrid()",
-      "id": "src_features_pricing_components_pricing_grid_pricinggrid"
-    },
-    {
-      "label": "pricing-hero.tsx",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-hero.tsx",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricing-hero.tsx",
-      "id": "src_features_pricing_components_pricing_hero"
-    },
-    {
-      "label": "PricingHero()",
-      "file_type": "code",
-      "source_file": "src/features/pricing/components/pricing-hero.tsx",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
-      "norm_label": "pricinghero()",
-      "id": "src_features_pricing_components_pricing_hero_pricinghero"
     },
     {
       "label": "index.ts",
@@ -1681,8 +1725,8 @@
       "source_file": "src/hooks/use-scroll.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "use-scroll.ts",
       "id": "src_hooks_use_scroll"
     },
@@ -1692,8 +1736,8 @@
       "source_file": "src/hooks/use-scroll.ts",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "usescrolly()",
       "id": "src_hooks_use_scroll_usescrolly"
     },
@@ -1703,8 +1747,8 @@
       "source_file": "src/hooks/use-scroll.ts",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "usescrollthreshold()",
       "id": "src_hooks_use_scroll_usescrollthreshold"
     },
@@ -1714,8 +1758,8 @@
       "source_file": "src/lib/utils.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "Pricing",
+      "community": 4,
+      "community_name": "Sheet and Mobile Nav",
       "norm_label": "utils.ts",
       "id": "src_lib_utils"
     },
@@ -1733,15 +1777,164 @@
   ],
   "links": [
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_cta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-cta.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_pricing_components_pricing_cta",
+      "target": "src_features_pricing_components_pricing_cta_pricingcta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_cta_pricingcta"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_grid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_annual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_monthly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_pricinggrid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_tags_consulting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-grid.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_pricing_components_pricing_grid",
+      "target": "src_features_pricing_components_pricing_grid_tags_web",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_grid_pricinggrid"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_hero"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/features/pricing/components/pricing-hero.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "src_features_pricing_components_pricing_hero",
+      "target": "src_features_pricing_components_pricing_hero_pricinghero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(marketing)/pricing/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_app_marketing_pricing_page",
+      "target": "src_features_pricing_components_pricing_hero_pricinghero"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/shared/noise-overlay.tsx",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_components_shared_noise_overlay",
-      "target": "src_components_shared_noise_overlay_noiseoverlay",
-      "confidence_score": 1.0
+      "target": "src_components_shared_noise_overlay_noiseoverlay"
     },
     {
       "relation": "imports_from",
@@ -1751,9 +1944,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_cta_banner",
-      "target": "src_components_shared_noise_overlay",
-      "confidence_score": 1.0
+      "target": "src_components_shared_noise_overlay"
     },
     {
       "relation": "imports_from",
@@ -1763,9 +1956,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_services_section",
-      "target": "src_components_shared_noise_overlay",
-      "confidence_score": 1.0
+      "target": "src_components_shared_noise_overlay"
     },
     {
       "relation": "imports",
@@ -1775,9 +1968,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_cta_banner",
-      "target": "src_components_shared_noise_overlay_noiseoverlay",
-      "confidence_score": 1.0
+      "target": "src_components_shared_noise_overlay_noiseoverlay"
     },
     {
       "relation": "imports",
@@ -1787,9 +1980,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_services_section",
-      "target": "src_components_shared_noise_overlay_noiseoverlay",
-      "confidence_score": 1.0
+      "target": "src_components_shared_noise_overlay_noiseoverlay"
     },
     {
       "relation": "contains",
@@ -1798,9 +1991,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_brand_showcase",
-      "target": "src_features_home_components_brand_showcase_brand_features",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_brand_showcase_brand_features"
     },
     {
       "relation": "contains",
@@ -1809,9 +2002,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_brand_showcase",
-      "target": "src_features_home_components_brand_showcase_brandshowcase",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_brand_showcase_brandshowcase"
     },
     {
       "relation": "imports_from",
@@ -1821,9 +2014,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_brand_showcase",
-      "target": "src_hooks_use_gsap_reveal",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_gsap_reveal"
     },
     {
       "relation": "imports",
@@ -1833,9 +2026,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_brand_showcase",
-      "target": "src_hooks_use_gsap_reveal_usegsapreveal",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_gsap_reveal_usegsapreveal"
     },
     {
       "relation": "re_exports",
@@ -1892,9 +2085,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_cta_banner",
-      "target": "src_features_home_components_cta_banner_ctabanner",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_cta_banner_ctabanner"
     },
     {
       "relation": "imports_from",
@@ -1904,9 +2097,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_cta_banner",
-      "target": "src_hooks_use_magnetic",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_magnetic"
     },
     {
       "relation": "imports",
@@ -1916,9 +2109,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_cta_banner",
-      "target": "src_hooks_use_magnetic_usemagnetic",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_magnetic_usemagnetic"
     },
     {
       "relation": "re_exports",
@@ -1975,9 +2168,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_hero_section",
-      "target": "src_features_home_components_hero_section_herosection",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_hero_section_herosection"
     },
     {
       "relation": "imports_from",
@@ -1987,9 +2180,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_hero_section",
-      "target": "src_features_home_components_parallax_background",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_parallax_background"
     },
     {
       "relation": "imports",
@@ -1999,9 +2192,9 @@
       "source_location": "L5",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_hero_section",
-      "target": "src_features_home_components_parallax_background_parallaxbackground",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_parallax_background_parallaxbackground"
     },
     {
       "relation": "imports_from",
@@ -2011,9 +2204,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_hero_section",
-      "target": "src_hooks_use_gsap_reveal",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_gsap_reveal"
     },
     {
       "relation": "imports",
@@ -2023,9 +2216,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_hero_section",
-      "target": "src_hooks_use_gsap_reveal_usegsapreveal",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_gsap_reveal_usegsapreveal"
     },
     {
       "relation": "re_exports",
@@ -2082,9 +2275,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_parallax_background",
-      "target": "src_features_home_components_parallax_background_parallaxbackground",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_parallax_background_parallaxbackground"
     },
     {
       "relation": "re_exports",
@@ -2105,9 +2298,9 @@
       "source_location": "L11",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_services_section",
-      "target": "src_features_home_components_services_section_brand_colors",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_services_section_brand_colors"
     },
     {
       "relation": "contains",
@@ -2116,9 +2309,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_services_section",
-      "target": "src_features_home_components_services_section_grid_pattern",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_services_section_grid_pattern"
     },
     {
       "relation": "contains",
@@ -2127,9 +2320,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_services_section",
-      "target": "src_features_home_components_services_section_servicessection",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_services_section_servicessection"
     },
     {
       "relation": "imports_from",
@@ -2139,9 +2332,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_services_section",
-      "target": "src_hooks_use_gsap_reveal",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_gsap_reveal"
     },
     {
       "relation": "imports",
@@ -2151,9 +2344,9 @@
       "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_services_section",
-      "target": "src_hooks_use_gsap_reveal_usegsapreveal",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_gsap_reveal_usegsapreveal"
     },
     {
       "relation": "imports",
@@ -2210,9 +2403,9 @@
       "source_location": "L7",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_testimonials_section",
-      "target": "src_features_home_components_testimonials_section_border_map",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_testimonials_section_border_map"
     },
     {
       "relation": "contains",
@@ -2221,9 +2414,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_testimonials_section",
-      "target": "src_features_home_components_testimonials_section_testimonial_cards",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_testimonials_section_testimonial_cards"
     },
     {
       "relation": "contains",
@@ -2232,9 +2425,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_features_home_components_testimonials_section",
-      "target": "src_features_home_components_testimonials_section_testimonialssection",
-      "confidence_score": 1.0
+      "target": "src_features_home_components_testimonials_section_testimonialssection"
     },
     {
       "relation": "imports",
@@ -2267,9 +2460,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_hooks_use_gsap_reveal",
-      "target": "src_hooks_use_gsap_reveal_options",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_gsap_reveal_options"
     },
     {
       "relation": "contains",
@@ -2278,9 +2471,9 @@
       "source_location": "L6",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_hooks_use_gsap_reveal",
-      "target": "src_hooks_use_gsap_reveal_usegsapreveal",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_gsap_reveal_usegsapreveal"
     },
     {
       "relation": "contains",
@@ -2289,9 +2482,9 @@
       "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast",
+      "confidence_score": 1.0,
       "source": "src_hooks_use_magnetic",
-      "target": "src_hooks_use_magnetic_usemagnetic",
-      "confidence_score": 1.0
+      "target": "src_hooks_use_magnetic_usemagnetic"
     },
     {
       "relation": "contains",
@@ -2419,78 +2612,6 @@
       "confidence_score": 1.0,
       "source": "src_app_marketing_pricing_page",
       "target": "src_app_marketing_pricing_page_pricingpage"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_cta"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_cta_pricingcta"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_grid"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_grid_pricinggrid"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_hero"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(marketing)/pricing/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_app_marketing_pricing_page",
-      "target": "src_features_pricing_components_pricing_hero_pricinghero"
     },
     {
       "relation": "contains",
@@ -2953,18 +3074,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_cta",
-      "target": "src_components_layout_contact_sheet"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/features/showcase/components/showcase-cta.tsx",
       "source_location": "L6",
       "weight": 1.0,
@@ -2983,18 +3092,6 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "src_components_layout_index",
-      "target": "src_components_layout_contact_sheet_contactsheet"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_cta",
       "target": "src_components_layout_contact_sheet_contactsheet"
     },
     {
@@ -3557,42 +3654,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_cta",
-      "target": "src_components_shared_scroll_reveal"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_grid",
-      "target": "src_components_shared_scroll_reveal"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-hero.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_hero",
-      "target": "src_components_shared_scroll_reveal"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/features/services/components/services-ai.tsx",
       "source_location": "L2",
       "weight": 1.0,
@@ -3708,42 +3769,6 @@
       "_origin": "ast",
       "source": "src_components_shared_scroll_reveal_scrollreveal",
       "target": "src_lib_utils_cn"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_cta",
-      "target": "src_components_shared_scroll_reveal_scrollreveal"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_grid",
-      "target": "src_components_shared_scroll_reveal_scrollreveal"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-hero.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_hero",
-      "target": "src_components_shared_scroll_reveal_scrollreveal"
     },
     {
       "relation": "imports",
@@ -4130,18 +4155,6 @@
       "target": "src_lib_utils_cn"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-hero.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_hero",
-      "target": "src_components_ui_badge"
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -4164,18 +4177,6 @@
       "confidence_score": 1.0,
       "source": "src_components_ui_badge_badge",
       "target": "src_lib_utils_cn"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-hero.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_hero",
-      "target": "src_components_ui_badge_badge"
     },
     {
       "relation": "contains",
@@ -4251,30 +4252,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_cta",
-      "target": "src_components_ui_button"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_grid",
-      "target": "src_components_ui_button"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/features/showcase/components/showcase-cta.tsx",
       "source_location": "L5",
       "weight": 1.0,
@@ -4329,30 +4306,6 @@
       "_origin": "ast",
       "confidence_score": 1.0,
       "source": "src_components_ui_sheet",
-      "target": "src_components_ui_button_button"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_cta",
-      "target": "src_components_ui_button_button"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_grid",
       "target": "src_components_ui_button_button"
     },
     {
@@ -5196,39 +5149,6 @@
       "target": "src_lib_utils_cn"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-cta.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_cta",
-      "target": "src_features_pricing_components_pricing_cta_pricingcta"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-grid.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_grid",
-      "target": "src_features_pricing_components_pricing_grid_pricinggrid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/features/pricing/components/pricing-hero.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "_origin": "ast",
-      "confidence_score": 1.0,
-      "source": "src_features_pricing_components_pricing_hero",
-      "target": "src_features_pricing_components_pricing_hero_pricinghero"
-    },
-    {
       "relation": "re_exports",
       "context": "export",
       "confidence": "EXTRACTED",
@@ -5551,5 +5471,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "39a371311a76622c56c96968364da48dd9c4febf"
+  "built_at_commit": "2134a77a58613a46831e198a7c5fabe8c64b91fc"
 }

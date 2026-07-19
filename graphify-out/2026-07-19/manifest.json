@@ -65,8 +65,8 @@
     "semantic_hash": "1fc679b480f9b2d84766d4b8d76d700c"
   },
   "src/components/layout/navbar.tsx": {
-    "mtime": 1784452364.7230806,
-    "ast_hash": "dfc257cd4692c886fd7a83eda45b75a2",
+    "mtime": 1784458991.8894396,
+    "ast_hash": "29f71316fb47a6de21ddf9ce6b79e854",
     "semantic_hash": ""
   },
   "src/components/theme-toggle.tsx": {
@@ -155,18 +155,18 @@
     "semantic_hash": ""
   },
   "src/features/pricing/components/pricing-cta.tsx": {
-    "mtime": 1784452338.8599026,
-    "ast_hash": "5bc0058494abc21393d23dca625a5b21",
+    "mtime": 1784460178.5950048,
+    "ast_hash": "09916e8e569cc90ab1c42630c7427da8",
     "semantic_hash": ""
   },
   "src/features/pricing/components/pricing-grid.tsx": {
-    "mtime": 1784452338.860903,
-    "ast_hash": "a0797b5e24163d9a8014ce9ede3f0d1a",
+    "mtime": 1784460174.2721722,
+    "ast_hash": "9c2009945b88c928ae6ed2e1dbd7c11f",
     "semantic_hash": ""
   },
   "src/features/pricing/components/pricing-hero.tsx": {
-    "mtime": 1784452338.860903,
-    "ast_hash": "623b922dd77aacebe64f9ae9ffcb42d2",
+    "mtime": 1784460160.1559148,
+    "ast_hash": "a41e8eaf59c36bcb627e42dbb67860cf",
     "semantic_hash": ""
   },
   "src/features/services/components/index.ts": {
@@ -175,28 +175,28 @@
     "semantic_hash": "39ff2b12bb901b66b3b14e4116d72fc9"
   },
   "src/features/services/components/services-ai.tsx": {
-    "mtime": 1784452419.1154518,
-    "ast_hash": "13ab07b65fb22f9da5ba7db32c00f3f8",
+    "mtime": 1784456250.1014562,
+    "ast_hash": "8891e4662537c31210884aae519d1aad",
     "semantic_hash": ""
   },
   "src/features/services/components/services-consulting.tsx": {
-    "mtime": 1784452420.5163634,
-    "ast_hash": "875488ac0753cee0dbd192f3d171c46c",
+    "mtime": 1784456250.1652572,
+    "ast_hash": "0373c55a8f38ae8fba9baceab9338aa1",
     "semantic_hash": ""
   },
   "src/features/services/components/services-cta.tsx": {
-    "mtime": 1784452399.1404269,
-    "ast_hash": "45c2fa4ab8dd42e4321ecb1edec23458",
+    "mtime": 1784456250.2052228,
+    "ast_hash": "18629952965c7b9f45c3abeeb412106f",
     "semantic_hash": ""
   },
   "src/features/services/components/services-hero.tsx": {
-    "mtime": 1784452338.8619013,
-    "ast_hash": "631c1278e787ed5370aac9b5237b3fbe",
+    "mtime": 1784456248.2699819,
+    "ast_hash": "8c99600a13a6807cbf2410597b9c209d",
     "semantic_hash": ""
   },
   "src/features/services/components/services-web-app.tsx": {
-    "mtime": 1784452421.6318047,
-    "ast_hash": "ff91b5a5c49e0d02422bf994f231318d",
+    "mtime": 1784456249.3777072,
+    "ast_hash": "09f4309e86b122e08134906d4def3165",
     "semantic_hash": ""
   },
   "src/features/showcase/components/index.ts": {
@@ -205,28 +205,28 @@
     "semantic_hash": "5a87481b4e006acb6c0369cdf7ffc318"
   },
   "src/features/showcase/components/showcase-cta.tsx": {
-    "mtime": 1784452338.8629029,
-    "ast_hash": "0be710349e29073b4c6a2d30bf838f26",
+    "mtime": 1784457751.5235384,
+    "ast_hash": "067d0940cf9101e079d76d96b486a1e0",
     "semantic_hash": ""
   },
   "src/features/showcase/components/showcase-gamification.tsx": {
-    "mtime": 1784452462.0701125,
-    "ast_hash": "960ecaa34911e22619cf17a0c0b869ad",
+    "mtime": 1784459078.2503314,
+    "ast_hash": "65cf448cba2750d62c894fa763b8096b",
     "semantic_hash": ""
   },
   "src/features/showcase/components/showcase-hero.tsx": {
-    "mtime": 1784452398.9283302,
-    "ast_hash": "9cd764d49c10982dc69e58542ebc1e1f",
+    "mtime": 1784459047.9303493,
+    "ast_hash": "10811855c84abb563cedff927594618b",
     "semantic_hash": ""
   },
   "src/features/showcase/components/showcase-intelligence.tsx": {
-    "mtime": 1784452338.8629029,
-    "ast_hash": "738b07cea64b735557dbae3ca205e617",
+    "mtime": 1784459078.4226704,
+    "ast_hash": "3395f9c697bd65ad98e516170a12cf16",
     "semantic_hash": ""
   },
   "src/hooks/use-scroll.ts": {
-    "mtime": 1784452364.6767652,
-    "ast_hash": "d92d842fbf989b3a2734062796434547",
+    "mtime": 1784459117.0258427,
+    "ast_hash": "64b22941b65e504e7a9ff500a58c9251",
     "semantic_hash": ""
   },
   "src/components/shared/scroll-reveal.tsx": {
